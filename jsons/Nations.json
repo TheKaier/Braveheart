@@ -1,0 +1,103 @@
+[
+	// Spectator
+	{
+		"name": "Spectator",
+		"outerColor": [255, 255, 255]
+		 //"innerColor": [255, 255, 255]
+	},
+	
+	
+
+	// Nations
+	{
+		"name": "Nation.China",//中华民国
+		"leaderName": "Jiang Jieshi",
+		"adjective": [""],
+		//"preferredVictoryType": "",
+
+        "startIntroPart1": "After the revolution of 1911 toppled the late Manchu emperor, the Republic of China was still struggling. In the remote areas, the warlords were divided, and in the Central Plain area, red bandits were entrenched in the foothills. Beyond its borders, the Japanese invaders installed a puppet regime led by Emperor Modi Puyi and tried to bring the whole of China under their control. Surrounded by powerful enemies, the Chiang Kai-shek administration will have to make tough choices to lead China and carve out a new path.",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [0,0,0],
+        "innerColor": [255,255,255],
+
+
+		"favouredReligion": "",
+		"uniqueName": "",
+		"uniques": [
+		
+		],
+		/*"civilopediaText":[
+        {"text": ""},
+    ],*/
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"],
+        "spyNames": ["Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"]
+
+    },
+	
+	{
+		"name": "Nation.Japan",
+		"leaderName": "Leader",
+		"adjective": [""],
+		//"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+		"outerColor": [0,0,0],
+        "innerColor": [255,255,255],
+		"style": "",
+		"uniqueName": "",
+		"uniques": [
+		],
+		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
+			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
+			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
+			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
+        "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
+	},
+	// City-States
+	/*{
+		"name": "The Archive",
+		"adjective": ["Archive"],
+		"cityStateType": "Research",
+		"style": "Corporate",
+		"uniques": ["Starts with [Writing]", "Starts with [Electronics]"],
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "We shall not go gentle into that good night!",
+		"defeated": "After us, the deluge...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [250, 180, 250],
+		"cities": ["The Archive"]
+	},*/
+
+	// Barbarian
+	{
+		"name": "Barbarians",
+		"style": "Barbarians",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185, 12, 12],
+		"uniques": [
+		
+		]
+	}
+]
+
+
+
+
+

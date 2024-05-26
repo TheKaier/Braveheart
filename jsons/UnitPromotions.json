@@ -1,0 +1,10 @@
+[
+{
+		"name": "Unit",//
+		"uniques": [
+			"Gain [-1] [Faith] <upon defeating a [Wounded] unit>",
+		"Gain [1] [Faith] <upon being defeated>",
+			]
+
+	},
+]

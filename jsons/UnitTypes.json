@@ -1,0 +1,14 @@
+[
+    {
+        "name": "unitType.Worker",//建造者
+        "movementType": "Land"
+    },
+    {
+        "name": "unitType.Settler",//殖民者
+        "movementType": "Land"
+    },
+    {
+        "name": "unitType.Infantry",//步兵
+        "movementType": "Land"
+    },
+]

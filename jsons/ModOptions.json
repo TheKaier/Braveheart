@@ -1,0 +1,17 @@
+{
+    "isBaseRuleset": true,
+
+    "constants": {
+        "maxXPfromBarbarians": 0,
+        "cityStrengthBase": 150,
+        "cityStrengthPerPop": 10,
+      "cityStrengthFromTechsFullMultiplier": 0,
+        "unitSupplyPerPopulation": 10,
+        "pantheonBase": 10,
+        "pantheonGrowth": 0
+    },
+    "uniques":[
+        "Cannot be used as permanent audiovisual mod",
+
+    ]
+}

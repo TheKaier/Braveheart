@@ -1,0 +1,88 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+
+        "[-100]% unhappiness from the number of cities",//城市不扣快乐
+        "[-100]% Unhappiness from [Population] [in all cities]",//人口不扣快乐
+        "[-1 Happiness] for every known Natural Wonder",//发现奇观不加快乐
+        "[-4] Happiness from each type of luxury resource",//奢侈品不加快乐
+		"[-1 Science] per [1] population [in all cities]",//取消人头瓶
+		"[-100]% Strength for cities <when attacking>",//取消初始城市攻击
+        "[-100]% maintenance costs",//单位维护费修正
+        //"[-1 Gold] from every [River]",//删除河流给钱
+        "[-100]% [Gold] from Trade Routes",//取消贸易路线产出
+        "[-100]% Golden Age length",//取消黄金时代
+        
+        
+        /*"Provides [1] [Manpower] <in cities with at least [1] [Population]>",
+        "Provides [1] [Manpower] <in cities with at least [2] [Population]>",
+		"Provides [1] [Manpower] <in cities with at least [3] [Population]>",
+        "Provides [1] [Manpower] <in cities with at least [4] [Population]>",
+        "Provides [1] [Manpower] <in cities with at least [5] [Population]>",
+        "Provides [1] [Manpower] <in cities with at least [6] [Population]>",
+        "Provides [1] [Manpower] <in cities with at least [7] [Population]>",
+		"Provides [1] [Manpower] <in cities with at least [8] [Population]>",
+        "Provides [1] [Manpower] <in cities with at least [9] [Population]>",
+        "Provides [1] [Manpower] <in cities with at least [10] [Population]>",*/
+        //征集人力
+        
+        //城市产出修改
+        "[+10 Production] per [1] population [in all cities]",
+        "[+1 Gold] per [1] population [in all cities]",
+        "[+10 Production] [in all cities]",
+        "[+5 Science] [in all cities]",
+        
+        
+        //单位buff
+        "[All] units gain the [Unit] promotion <upon turn end>",
+        
+        
+        //厌战稳定度及事件
+        "Triggers a [Event.War-weariness I] event <when above [4] [Faith]> <when below [1] [War-weariness]> <when at war> <with [33]% chance> <upon turn end>",
+        "Gain [2] [Faith] <when above [9] [Faith]> <when at war> <every [5] turns> <upon turn end>",
+        "Gain [1] [Faith] <when above [49] [Faith]> <when at war> <every [1] turns> <upon turn end>",
+        "Gain [-1] [Faith] <when above [19] [Faith]> <when not at war> <every [1] turns> <upon turn end>",
+        
+        
+        
+        //War-weariness
+        
+        
+        //稳定度
+        "Instantly consumes [1] [Stability] <when number of [Stability] is less than [Faith]> <every [1] turns> <upon turn end>",
+        "Instantly consumes [1] [Stability] <when above [80] [Stability]> <every [5] turns> <upon turn end>",
+        "Instantly provides [1] [Stability] <when below [80] [Stability]> <every [10] turns> <upon turn end>",
+        "Instantly consumes [1] [Stability] <when above [29] [Faith]> <every [5] turns> <upon turn end>",
+        "Instantly provides [80] [Stability]",//稳定度初始化
+        
+        
+        "Instantly consumes [5] [Stability] <upon declaring war with a major Civilization>",
+        
+        
+        "[-25]% [Production] [in all cities] <when below [60] [Stability]>",
+        "[-25]% [Science] [in all cities] <when below [60] [Stability]>",
+        "[-25]% [Gold] [in all cities] <when below [60] [Stability]>",
+        "[-25]% [Production] [in all cities] <when below [40] [Stability]>",
+        "[-25]% [Science] [in all cities] <when below [40] [Stability]>",
+        "[-25]% [Gold] [in all cities] <when below [40] [Stability]>",
+        "[-25]% [Production] [in all cities] <when below [20] [Stability]>",
+        "[-25]% [Science] [in all cities] <when below [20] [Stability]>",
+        "[-25]% [Gold] [in all cities] <when below [20] [Stability]>",
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    //<with [20]% chance>
+    //<after [40] turns>
+    //<when at war>
+    //<when not at war>
+    //<for [28] turns>
+    //<every [8] turns>
+    //<when number of [Stability] is less than [Faith]>
+    ]
+}

@@ -1,0 +1,35 @@
+[
+	{
+		"name": "Unit.Worker",//垦荒者
+		"unitType": "unitType.Worker",
+		"movement": 2,
+		"uniques": ["Can build [Farm] improvements on tiles",
+		],
+		"cost": 150
+	},
+	{
+		"name": "Unit.Settler",//殖民者
+		"unitType": "unitType.Settler",
+		"movement": 2,
+		"cost": 300,
+		"uniques": ["Founds a new city <by consuming this unit>", 
+			],
+	},
+	{
+		"name": "Unit.Infantry.I",//步兵 I
+		"unitType": "unitType.Infantry",
+		"movement": 2,
+		"strength": 100,
+		"cost": 150,
+		//"obsoleteTech": "Scientific Theory",
+		"uniques": [
+		"Instantly consumes [5] [Manpower]",
+		],
+	},
+	
+	
+	
+	
+	
+	
+]

@@ -1,0 +1,69 @@
+[//"Triggers a [事件名] event"
+    {
+        "name":"Event.War-weariness I",//厌战I
+        "text":"The people were worried about the war, they organized the march, they wanted the war to stop.",
+        "choices":[
+        {
+        "text":"Put them down!",
+        "triggeredUniques":[
+        "Gain [5] [Faith] <with [50]% chance>",
+        "Instantly provides [1] [War-weariness] <with [25]% chance> <hidden from users>",
+		    ],
+        },
+        {
+        "text":"Make a show of.",
+        "triggeredUniques":[
+        "Gain [2] [Faith]",
+        "Gain [-50] [Gold]",
+        "Instantly provides [1] [War-weariness] <with [35]% chance> <hidden from users>",
+            ],
+        },
+        {
+        "text":"A mere parade...",
+        "triggeredUniques":[
+        "Instantly consumes [5] [Stability]",
+        //"Triggers a [Event.War-weariness I-1] event <with [25]% chance> <hidden from users>",
+        "Instantly provides [1] [War-weariness] <with [45]% chance> <hidden from users>",
+            ],
+        }
+        ]
+    },
+    {
+        "name":"Event.War-weariness I-1",//厌战I-1
+        "text":"The people were angry at the government's disregard, so they decided to organize a bigger action.",
+        "choices":[
+        {
+        "text":"Capture their leader!",
+        "triggeredUniques":[
+        "Gain [5] [Faith]",
+        "Instantly consumes [3] [Stability]",
+		    ],
+        },
+        {
+        "text":"Put them down!",
+        "triggeredUniques":[
+        "Instantly consumes [3] [Stability]",
+        "Gain [-50] [Gold]",
+        "Instantly consumes [15] [Manpower]",
+            ],
+        },
+        {
+        "text":"The war will soon be over!",
+        "triggeredUniques":[
+        "Gain [-3] [Faith]",
+        "Gain [-100] [Gold]",
+            ],
+        },
+            ],
+        }
+        
+    
+
+]
+    //<with [20]% chance>
+    //<after [40] turns>
+    //<when at war>
+    //<when not at war>
+    //<for [28] turns>
+    //<every [8] turns>
+    //<when number of [Stability] is less than [Faith]>

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Era",
+        "researchAgreementCost": 150,
+        "startingSettlerUnit":"Unit.Settler",
+        "startingWorkerUnit":"Unit.Worker",
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Unit.Infantry.I",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 0,
+        "embarkDefense": 150,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35],
+        "uniques":[
+        
+        ]
+    },
+
+]

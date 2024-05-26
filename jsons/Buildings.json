@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		//"production": 3,
+		//"science": 3,
+		//"faith": 1,
+		//"culture": 1,
+		//"cityStrength": 10,
+		"cost": 1,
+		"uniques": ["Indicates the capital city",
+		]
+	},
+	{
+		"name": "Building.Manpower",
+		"cost": 1,
+		"uniques": [
+		"Unsellable",
+        "Automatically built in all cities where it is buildable",
+		"Provides [1] [Manpower] <in cities with at least [1] [Population]>",
+        "Provides [1] [Manpower] <in cities with at least [2] [Population]> <when below [76] [Faith]>",
+		"Provides [1] [Manpower] <in cities with at least [3] [Population]> <when below [76] [Faith]>",
+        "Provides [1] [Manpower] <in cities with at least [4] [Population]> <when below [51] [Faith]>",
+        "Provides [1] [Manpower] <in cities with at least [5] [Population]> <when below [31] [Faith]>",
+        "Provides [1] [Manpower] <in cities with at least [6] [Population]>",
+        "Provides [1] [Manpower] <in cities with at least [7] [Population]> <when below [76] [Faith]>",
+		"Provides [1] [Manpower] <in cities with at least [8] [Population]> <when below [76] [Faith]>",
+        "Provides [1] [Manpower] <in cities with at least [9] [Population]> <when below [51] [Faith]>",
+        "Provides [1] [Manpower] <in cities with at least [10] [Population]> <when below [31] [Faith]>",
+		
+		]
+	},
+]
