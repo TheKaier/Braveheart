@@ -1,5 +1,5 @@
 [//"Triggers a [事件名] event"
-    {
+    /*{
         "name":"Event.War-weariness I",//厌战I
         "text":"The people were worried about the war, they organized the march, they wanted the war to stop.",
         "choices":[
@@ -58,7 +58,7 @@
         }
         
     
-
+*/
 ]
     //<with [20]% chance>
     //<after [40] turns>

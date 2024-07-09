@@ -1,13 +1,13 @@
 [
     {
-        "name": "Era",
+        "name": "步兵",
         "researchAgreementCost": 150,
-        "startingSettlerUnit":"Unit.Settler",
+        "startingSettlerUnit":"单位-殖民者",
         "startingWorkerUnit":"Unit.Worker",
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
-        "startingMilitaryUnitCount": 3,
-        "startingMilitaryUnit": "Unit.Infantry.I",
+        "startingMilitaryUnitCount": 0,
+        "startingMilitaryUnit": "步兵",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 0,
         "embarkDefense": 150,

@@ -1,10 +1,65 @@
 [
-{
-		"name": "Unit",//
+    {
+		"name": "步兵",//
 		"uniques": [
-			"Gain [-1] [Faith] <upon defeating a [Wounded] unit>",
-		"Gain [1] [Faith] <upon being defeated>",
+			/*"Gain [-1] [Faith] <upon defeating a [Wounded] unit>",
+		"Gain [1] [Faith] <upon being defeated>",*/
+		"[-50]% Strength",
+		"[+5]% Strength <after discovering [科技-改良步兵装备I]> <vs [单位类型-步兵] units>",
+		"[+5]% Strength <after discovering [科技-改良步兵装备II]> <vs [单位类型-步兵] units>",
+		"[+5]% Strength <after discovering [科技-改良步兵装备III]> <vs [单位类型-步兵] units>",
+		
 			]
-
 	},
+	{
+		"name": "晋升-基础步兵装备",//43
+		"uniques": [
+			"[+50]% Strength",
+			"[-25]% Strength <vs [单位类型-装甲] units>",
+			]
+	},
+	{
+		"name": "晋升-步兵装备I",//50
+		"uniques": [
+			"[+60]% Strength",
+			"[-30]% Strength <vs [单位类型-装甲] units>",
+			]
+	},
+	{
+		"name": "晋升-步兵装备II",//58
+		"uniques": [
+			"[+70]% Strength",
+			"[-35]% Strength <vs [单位类型-装甲] units>",
+			]
+	},
+	{
+		"name": "晋升-步兵装备III",//69
+		"uniques": [
+			"[+85]% Strength",
+			"[-40]% Strength <vs [单位类型-装甲] units>",
+			]
+	},
+/*基础步兵装备
+步兵装备I
+步兵装备II
+步兵装备III
+改良步兵装备I
+改良步兵装备II
+改良步兵装备III
+反坦克步枪I
+反坦克步枪II*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 ]

@@ -1,3 +1,625 @@
 [
+{
+        "name": "德意志国策",
+        "era": "步兵",
+        "priorities": {
+            
+        },
+        "uniques": [
+        "Only available <for [德意志国]>",
+        //"[+5 Faith] [in capital]",
+        //"[-25]% [Faith] [in capital]",
+        //"Only available <when above [69] [Faith]> <hidden from users>",
+        //"Gain [-70] [Faith] <hidden from users>",
+        
+],
+        "policies": [
+            {
+                "name": "德意志-进军莱茵兰",
+                "uniques": [
+                "Only available <before adopting [德意志-反对希特勒]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "Instantly provides [120] [政治点数]",
+                ],
+                "row": 1,
+                "column": 30
+            },
+            {
+                "name": "德意志-德国瑞典贸易协定",
+                "uniques": [
+                "Only available <after adopting [德意志-进军莱茵兰]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[+10 Gold]",
+                ],
+                "row": 2,
+                "column": 28
+            },
+{
+                "name": "德意志-对华友好",
+                "uniques": [
+                "Only available <after adopting [德意志-进军莱茵兰]>",
+		"Only available <before adopting [德意志-对日友好]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+                ],
+                "row": 2,
+                "column": 30
+            },
+{
+                "name": "德意志-对日友好",
+                "uniques": [
+                "Only available <after adopting [德意志-进军莱茵兰]>",
+		"Only available <before adopting [德意志-对华友好]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+                ],
+                "row": 2,
+                "column": 32
+            },
+{
+                "name": "德意志-德奥合并",
+                "uniques": [
+                "Only available <after adopting [德意志-进军莱茵兰]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[1] free [单位-殖民者] units appear",
+                ],
+                "row": 3,
+                "column": 33
+            },
+{
+                "name": "德意志-对捷克斯洛伐克示好",
+                "uniques": [
+                "Only available <after adopting [德意志-德奥合并]>",
+		"Only available <before adopting [德意志-索取苏台德]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+                ],
+                "row": 4,
+                "column": 30
+            },
+{
+                "name": "德意志-索取苏台德",
+                "uniques": [
+                "Only available <after adopting [德意志-德奥合并]>",
+		"Only available <before adopting [德意志-对捷克斯洛伐克示好]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[1] free [单位-殖民者] units appear",
+                ],
+                "row": 4,
+                "column": 32
+            },
+{
+                "name": "德意志-第一次维也纳仲裁",
+                "uniques": [
+                "Only available <after adopting [德意志-索取苏台德]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[1] free [单位-殖民者] units appear",
+                ],
+                "row": 5,
+                "column": 32
+            },
+{
+                "name": "德意志-捷克斯洛伐克的命运",
+                "uniques": [
+                "Only available <after adopting [德意志-第一次维也纳仲裁]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[1] free [单位-殖民者] units appear",
+                ],
+                "row": 6,
+                "column": 32
+            },
+{
+                "name": "德意志-斯洛伐克换但泽",
+                "uniques": [
+                "Only available <after adopting [德意志-捷克斯洛伐克的命运]>",
+		"Only available <before adopting [德意志-但泽或战争]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[1] free [单位-殖民者] units appear",
+                ],
+                "row": 7,
+                "column": 32
+            },
+{
+                "name": "德意志-反共产主义条约",
+                "uniques": [
+                "Only available <after adopting [德意志-进军莱茵兰]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+                ],
+                "row": 3,
+                "column": 27
+            },
+{
+                "name": "德意志-反苏条约",
+                "uniques": [
+                "Only available <after adopting [德意志-反共产主义条约]>",
+		"Only available <before adopting [德意志-莫洛托夫里宾特洛甫条约]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+                ],
+                "row": 6,
+                "column": 27
+            },
+{
+                "name": "德意志-对苏联作战",
+                "uniques": [
+                "Only available <after adopting [德意志-反共产主义条约]>",
+		"Only available <before adopting [德意志-与苏联结盟]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+                ],
+                "row": 7,
+                "column": 28
+            },
+{
+                "name": "德意志-陆军改革",
+                "uniques": [
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+                ],
+                "row": 1,
+                "column": 24
+            },
+{
+                "name": "德意志-与苏联的条约",
+                "uniques": [
+                "Only available <after adopting [德意志-陆军改革]>",
+		"Only available <before adopting [德意志-反苏条约]>",
+		"Only available <before adopting [德意志-对抗布尔什维克的壁垒]>",
+		"Only available <before adopting [德意志-巨大的红色威胁]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+                ],
+                "row": 3,
+                "column": 24
+            },
+{
+                "name": "德意志-陆军改革II",
+                "uniques": [
+                "Only available <after adopting [德意志-与苏联的条约]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+                ],
+                "row": 5,
+                "column": 24
+            },
+{
+                "name": "德意志-莫洛托夫里宾特洛甫条约",
+                "uniques": [
+                "Only available <after adopting [德意志-与苏联的条约]>",
+		"Only available <before adopting [德意志-对抗布尔什维克的壁垒]>",
+		"Only available <before adopting [德意志-巨大的红色威胁]>",
+		"Only available <before adopting [德意志-反苏条约]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[1] free [单位-殖民者] units appear",
+                ],
+                "row": 6,
+                "column": 25
+            },
+{
+                "name": "德意志-与苏联结盟",
+                "uniques": [
+                "Only available <after adopting [德意志-莫洛托夫里宾特洛甫条约]>",
+		"Only available <before adopting [德意志-对苏联作战]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+                ],
+                "row": 7,
+                "column": 26
+            },
+{
+                "name": "德意志-索取斯洛文尼亚",
+                "uniques": [
+                "Only available <after adopting [德意志-德奥合并]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[1] free [单位-殖民者] units appear",
+                ],
+                "row": 4,
+                "column": 36
+            },
+{
+                "name": "德意志-第一次卢布尔雅那仲裁",
+                "uniques": [
+                "Only available <after adopting [德意志-索取斯洛文尼亚]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[1] free [单位-殖民者] units appear",
+                ],
+                "row": 5,
+                "column": 36
+            },
+{
+                "name": "德意志-南斯拉夫的命运",
+                "uniques": [
+                "Only available <after adopting [德意志-第一次卢布尔雅那仲裁]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+                ],
+                "row": 6,
+                "column": 36
+            },
+{
+                "name": "德意志-第二次卢布尔雅那仲裁",
+                "uniques": [
+                "Only available <after adopting [德意志-南斯拉夫的命运]>",
+		"Only available <before adopting [德意志-对希腊作战]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[1] free [单位-殖民者] units appear",
+                ],
+                "row": 7,
+                "column": 36
+            },
+{
+                "name": "德意志-弘扬民族精神",
+                "uniques": [
+                "Only available <after adopting [德意志-德奥合并]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "Remove [民族精神-苦涩的失败者]",
+        "Adopt [民族精神-意志的胜利]",
+                ],
+                "row": 4,
+                "column": 38
+            },
+{
+                "name": "德意志-重申东方领土主张",
+                "uniques": [
+                "Only available <after adopting [德意志-德奥合并]>",
+                "Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[1] free [单位-殖民者] units appear",
+                ],
+                "row": 4,
+                "column": 34
+            },
+{
+                "name": "德意志-但泽或战争",
+                "uniques": [
+                "Only available <after adopting [德意志-重申东方领土主张]>",
+		"Only available <before adopting [德意志-德意志-斯洛伐克换但泽]>",
+		"Only available <when above [69] [Faith]> <hidden from users>",
+        "Gain [-70] [Faith] <hidden from users>",
+        "[1] free [单位-殖民者] units appear",
+                ],
+                "row": 7,
+                "column": 34
+            },
+            {
+                "name": "德意志国策 Complete",
+                "uniques": [
 
+                ]
+            }
+        ]
+    },
+    
+    
+    
+    
+    {
+        "name": "民族精神",
+        "era": "步兵",
+        "priorities": {
+            
+        },
+        "uniques": [
+        "Unavailable",
+],
+        "policies": [
+            {
+                "name": "民族精神-苦涩的失败者",
+                "uniques": [
+                
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "民族精神-总参谋部",
+                "uniques": [
+                
+                
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "民族精神-意志的胜利",
+                "uniques": [
+                
+                "[+1 Faith] [in capital]",
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "民族精神-九国公约",
+                "uniques": [
+                //"Adopt [贸易法案-自由贸易] <upon turn end> <hidden from users>",
+                //"Remove [贸易法案-重视出口] <upon turn end> <hidden from users>",
+                //"Remove [贸易法案-有限出口] <upon turn end> <hidden from users>",
+                //"Remove [贸易法案-封闭经济] <upon turn end> <hidden from users>",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "民族精神-共产主义崛起",
+                "uniques": [
+                
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "民族精神-腐败的国军",
+                "uniques": [
+                
+                "[-25]% Strength",
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "民族精神-低效的官僚制度",
+                "uniques": [
+                
+                ],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "民族精神-低能的军官团",
+                "uniques": [
+                
+                ],
+                "row": 5,
+                "column": 3
+            },
+            {
+                "name": "民族精神-德国军事顾问",
+                "uniques": [
+                
+                ],
+                "row": 6,
+                "column": 3
+            },
+            {
+                "name": "民族精神-低度通货膨胀",
+                "uniques": [
+                
+                "[-10]% [Gold] [in all cities]",
+                ],
+                "row": 7,
+                "column": 3
+            },
+            
+            
+            
+            
+            
+            
+            
+            {
+                "name": "民族精神 Complete",
+                "uniques": [
+
+                ]
+            }
+        ]
+    },
+    
+    //九国公约
+    //共产主义崛起
+    //腐败的国军
+    //低效的官僚制度
+    //低能的军官团
+    //德国军事顾问
+    //低度通货膨胀
+    //
+    //民族精神-意志的胜利
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+        {
+        "name": "法案",
+        "era": "步兵",
+        "priorities": {
+            
+        },
+        "uniques": [
+
+],
+        "policies": [
+            {
+                "name": "贸易法案-自由贸易",
+                "uniques": [
+		"[+15]% [Production] [in all cities]",
+		"[+10]% [Science] [in all cities]",
+		"Remove [贸易法案-重视出口] <hidden from users>",
+		"Remove [贸易法案-有限出口] <hidden from users>",
+		"Remove [贸易法案-封闭经济] <hidden from users>",
+		"Only available <when above [149] [政治点数]> <hidden from users>",
+        	"Instantly consumes [150] [政治点数] <hidden from users>",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "贸易法案-重视出口",
+                "uniques": [
+                "[+10]% [Production] [in all cities]",
+		"[+5]% [Science] [in all cities]",
+		"Remove [贸易法案-自由贸易] <hidden from users>",
+		"Remove [贸易法案-有限出口] <hidden from users>",
+		"Remove [贸易法案-封闭经济] <hidden from users>",
+		"Only available <when above [149] [政治点数]> <hidden from users>",
+        	"Instantly consumes [150] [政治点数] <hidden from users>",
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "贸易法案-有限出口",
+                "uniques": [
+		"[+5]% [Production] [in all cities]",
+		"[+1]% [Science] [in all cities]",
+		"Remove [贸易法案-自由贸易] <hidden from users>",
+		"Remove [贸易法案-重视出口] <hidden from users>",
+		"Remove [贸易法案-封闭经济] <hidden from users>",
+		"Only available <when above [149] [政治点数]> <hidden from users>",
+        	"Instantly consumes [150] [政治点数] <hidden from users>",
+                ],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "贸易法案-封闭经济",
+                "uniques": [
+		"Remove [贸易法案-自由贸易] <hidden from users>",
+		"Remove [贸易法案-重视出口] <hidden from users>",
+		"Remove [贸易法案-有限出口] <hidden from users>",
+		"Only available <when above [149] [政治点数]> <hidden from users>",
+        	"Instantly consumes [150] [政治点数] <hidden from users>",
+                ],
+                "row": 4,
+                "column": 1
+            },
+	    {
+                "name": "征兵法案-非军事化国家",
+                "uniques": [
+		"Only available <when above [149] [政治点数]> <hidden from users>",
+        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <after adopting [征兵法案-志愿兵役制]> <hidden from users>",
+		"Remove [征兵法案-志愿兵役制] <hidden from users>",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "征兵法案-志愿兵役制",
+                "uniques": [
+		"Only available <when above [149] [政治点数]> <hidden from users>",
+        "Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <before adopting [征兵法案-广泛征兵]> <hidden from users>",
+		"Only available <before adopting [征兵法案-按需服兵役]> <hidden from users>",
+		"Only available <before adopting [征兵法案-所有成年服兵役]> <hidden from users>",
+		"Only available <before adopting [征兵法案-榨干他们]> <hidden from users>",
+		"Remove [征兵法案-非军事化国家] <hidden from users>",
+		"Remove [征兵法案-有限征兵] <hidden from users>",
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "征兵法案-有限征兵",
+                "uniques": [
+		"Only available <when above [149] [政治点数]> <hidden from users>",
+        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <before adopting [征兵法案-非军事化国家]> <hidden from users>",
+		"Only available <before adopting [征兵法案-按需服兵役]> <hidden from users>",
+		"Only available <before adopting [征兵法案-所有成年服兵役]> <hidden from users>",
+		"Only available <before adopting [征兵法案-榨干他们]> <hidden from users>",
+		"Remove [征兵法案-志愿兵役制] <hidden from users>",
+		"Remove [征兵法案-广泛征兵] <hidden from users>",
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "征兵法案-广泛征兵",
+                "uniques": [
+		"Only available <when above [149] [政治点数]> <hidden from users>",
+        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <before adopting [征兵法案-非军事化国家]> <hidden from users>",
+		"Only available <before adopting [征兵法案-志愿兵役制]> <hidden from users>",
+		"Only available <before adopting [征兵法案-所有成年服兵役]> <hidden from users>",
+		"Only available <before adopting [征兵法案-榨干他们]> <hidden from users>",
+		"Remove [征兵法案-有限征兵] <hidden from users>",
+		"Remove [征兵法案-按需服兵役] <hidden from users>",
+		"[-33]% growth [in all cities]",
+                ],
+                "row": 4,
+                "column": 3
+            },
+            {
+                "name": "征兵法案-按需服兵役",
+                "uniques": [
+		"Only available <when above [149] [政治点数]> <hidden from users>",
+        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <before adopting [征兵法案-非军事化国家]> <hidden from users>",
+		"Only available <before adopting [征兵法案-志愿兵役制]> <hidden from users>",
+		"Only available <before adopting [征兵法案-有限征兵]> <hidden from users>",
+		"Only available <before adopting [征兵法案-榨干他们]> <hidden from users>",
+		"Remove [征兵法案-广泛征兵] <hidden from users>",
+		"Remove [征兵法案-按需服兵役] <hidden from users>",
+		"Remove [征兵法案-所有成年服兵役] <hidden from users>",
+		"[-75]% growth [in all cities]",
+                ],
+                "row": 5,
+                "column": 3
+            },
+            {
+                "name": "征兵法案-所有成年服兵役",
+                "uniques": [
+		"Only available <when above [149] [政治点数]> <hidden from users>",
+        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <before adopting [征兵法案-非军事化国家]> <hidden from users>",
+		"Only available <before adopting [征兵法案-志愿兵役制]> <hidden from users>",
+		"Only available <before adopting [征兵法案-有限征兵]> <hidden from users>",
+		"Only available <before adopting [征兵法案-广泛征兵]> <hidden from users>",
+		"Remove [征兵法案-按需服兵役] <hidden from users>",
+		"Remove [征兵法案-榨干他们] <hidden from users>",
+		"Nullifies Growth [in all cities]",
+		"[-5]% Strength <for [All] units>",
+		"[-5]% [Science] [in all cities]",
+                ],
+                "row": 6,
+                "column": 3
+            },
+            {
+                "name": "征兵法案-榨干他们",
+                "uniques": [
+		"Only available <when above [149] [政治点数]> <hidden from users>",
+        	"Instantly consumes [150] [政治点数] <hidden from users>",
+		"Only available <after adopting [征兵法案-所有成年服兵役]> <hidden from users>",
+		"Remove [征兵法案-所有成年服兵役] <hidden from users>",
+		"Nullifies Growth [in all cities]",
+		"[-5]% Strength <for [All] units>",
+		"[-10]% [Science] [in all cities]",
+                ],
+                "row": 7,
+                "column": 3
+            },
+            
+            {
+                "name": "法案 Complete",
+                "uniques": [
+
+                ]
+            }
+        ]
+    },
+
+    
+    
+    
+    
+    
+    
+    
 ]

@@ -3,7 +3,7 @@
 
     "constants": {
         "maxXPfromBarbarians": 0,
-        "cityStrengthBase": 150,
+        "cityStrengthBase": 120,
         "cityStrengthPerPop": 10,
       "cityStrengthFromTechsFullMultiplier": 0,
         "unitSupplyPerPopulation": 10,

@@ -1,7 +1,7 @@
 [
 {
 		"name": "Prince",
-		"baseHappiness": 80,
+		"baseHappiness": 10,
 		"extraHappinessPerLuxury": 0,
 		"researchCostModifier": 1,
 		"unitCostModifier": 1,
@@ -18,8 +18,8 @@
 		"aiBuildingCostModifier": 1,
 		"aiWonderCostModifier": 1,
 		"aiBuildingMaintenanceModifier": 1,
-		"aiUnitMaintenanceModifier": 0.85,
-		"aiUnitSupplyModifier": 0.2,
+		"aiUnitMaintenanceModifier": 1,
+		"aiUnitSupplyModifier": 1,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": [],
 		"aiCityStateBonusStartingUnits": [],

@@ -1,538 +1,314 @@
 
 game.png
-size: 1024, 1024
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 EmojiIcons/Culture
   rotate: false
-  xy: 356, 110
+  xy: 1246, 4
   size: 27, 27
   orig: 27, 27
   offset: 0, 0
   index: -1
-StatIcons/Culture
+ResourceIcons/政治点数
   rotate: false
-  xy: 356, 110
+  xy: 1246, 4
   size: 27, 27
   orig: 27, 27
-  offset: 0, 0
-  index: -1
-EmojiIcons/Faith
-  rotate: false
-  xy: 515, 226
-  size: 22, 22
-  orig: 22, 22
-  offset: 0, 0
-  index: -1
-StatIcons/Faith
-  rotate: false
-  xy: 515, 226
-  size: 22, 22
-  orig: 22, 22
   offset: 0, 0
   index: -1
 EmojiIcons/Happiness
   rotate: false
-  xy: 356, 8
+  xy: 1563, 158
   size: 22, 22
   orig: 22, 22
   offset: 0, 0
   index: -1
-ResourceIcons/Stability
+ResourceIcons/稳定度
   rotate: false
-  xy: 356, 8
+  xy: 1563, 158
   size: 22, 22
   orig: 22, 22
   offset: 0, 0
   index: -1
 StatIcons/Happiness
   rotate: false
-  xy: 356, 8
+  xy: 1563, 158
   size: 22, 22
   orig: 22, 22
   offset: 0, 0
   index: -1
-ImprovementIcons/AI District
+NationIcons/中华民国
   rotate: false
-  xy: 212, 664
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Academy
-  rotate: false
-  xy: 348, 664
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Barracks
-  rotate: false
-  xy: 484, 664
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Baths
-  rotate: false
-  xy: 140, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Blessing - Culture
-  rotate: false
-  xy: 620, 628
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Blessing - Faith
-  rotate: false
-  xy: 620, 628
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Blessing - Food
-  rotate: false
-  xy: 620, 628
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Blessing - Gold
-  rotate: false
-  xy: 620, 628
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Blessing - Production
-  rotate: false
-  xy: 620, 628
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Business Center
-  rotate: false
-  xy: 756, 628
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Cahokia Mounds
-  rotate: false
-  xy: 892, 628
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Camp
-  rotate: false
-  xy: 248, 12
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/City
-  rotate: false
-  xy: 212, 528
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Coal-fired Plant
-  rotate: false
-  xy: 4, 456
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Geothermal Plant
-  rotate: false
-  xy: 4, 456
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Nuclear Fission Plant
-  rotate: false
-  xy: 4, 456
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Nuclear Fusion Plant
-  rotate: false
-  xy: 4, 456
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Oil-fired Plant
-  rotate: false
-  xy: 4, 456
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Solar Plant
-  rotate: false
-  xy: 4, 456
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Tidal Plant
-  rotate: false
-  xy: 4, 456
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Wind Plant
-  rotate: false
-  xy: 4, 456
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Commercial Bank
-  rotate: false
-  xy: 348, 528
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Concert Hall
-  rotate: false
-  xy: 484, 528
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Electrolysis Factory
-  rotate: false
-  xy: 620, 492
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Embassy
-  rotate: false
-  xy: 515, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Entertainment
-  rotate: false
-  xy: 756, 492
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Fishing Boats
-  rotate: false
-  xy: 398, 110
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Fort
-  rotate: false
-  xy: 506, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Harbor
-  rotate: false
-  xy: 892, 492
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Holy Site
-  rotate: false
-  xy: 140, 392
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Industrial Zone
-  rotate: false
-  xy: 4, 320
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Landmark
-  rotate: false
-  xy: 276, 392
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Large Sculptures
-  rotate: false
-  xy: 412, 392
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Lecture Theatre
-  rotate: false
-  xy: 548, 356
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Lumber Mill
-  rotate: false
-  xy: 614, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Mine
-  rotate: false
-  xy: 623, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Municipal Square
-  rotate: false
-  xy: 140, 256
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Oil Well
-  rotate: false
-  xy: 4, 184
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Palgum
-  rotate: false
-  xy: 4, 592
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Pasture
-  rotate: false
-  xy: 722, 4
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Plantation
-  rotate: false
-  xy: 684, 248
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Planted Forest
-  rotate: false
-  xy: 680, 764
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Quarry
-  rotate: false
-  xy: 731, 140
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Fallout
-  rotate: false
-  xy: 276, 256
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Forest
-  rotate: false
-  xy: 412, 256
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Jungle
-  rotate: false
-  xy: 412, 256
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Mangrove
-  rotate: false
-  xy: 412, 256
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Ice
-  rotate: false
-  xy: 684, 356
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Remove Marsh
-  rotate: false
-  xy: 820, 356
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Ski Area
-  rotate: false
-  xy: 792, 248
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Sphinx
-  rotate: false
-  xy: 548, 220
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Stele
-  rotate: false
-  xy: 830, 32
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Terrace Farm
-  rotate: false
-  xy: 839, 140
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Tourist Center
-  rotate: false
-  xy: 140, 120
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Trading Station
-  rotate: false
-  xy: 4, 48
-  size: 128, 128
-  orig: 128, 128
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Trenchs
-  rotate: false
-  xy: 900, 248
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Nation.China
-  rotate: false
-  xy: 4, 800
+  xy: 4, 32
   size: 330, 220
   orig: 330, 220
   offset: 0, 0
   index: -1
-NationIcons/Nation.Japan
+NationIcons/德意志国
   rotate: false
-  xy: 342, 800
+  xy: 342, 32
   size: 330, 220
   orig: 330, 220
   offset: 0, 0
   index: -1
-ResourceIcons/Manpower
+NationIcons/日本
   rotate: false
-  xy: 620, 765
+  xy: 680, 32
+  size: 330, 220
+  orig: 330, 220
+  offset: 0, 0
+  index: -1
+PolicyIcons/征兵法案-广泛征兵
+  rotate: false
+  xy: 1247, 87
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/征兵法案-志愿兵役制
+  rotate: false
+  xy: 1247, 39
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/征兵法案-所有成年服兵役
+  rotate: false
+  xy: 1102, 12
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/征兵法案-按需服兵役
+  rotate: false
+  xy: 1150, 12
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/征兵法案-有限征兵
+  rotate: false
+  xy: 1198, 15
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/征兵法案-榨干他们
+  rotate: false
+  xy: 1275, 140
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/征兵法案-非军事化国家
+  rotate: false
+  xy: 1323, 140
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-九国公约
+  rotate: false
+  xy: 1673, 184
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-低度通货膨胀
+  rotate: false
+  xy: 1208, 135
+  size: 59, 67
+  orig: 59, 67
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-低效的官僚制度
+  rotate: false
+  xy: 1741, 184
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-低能的军官团
+  rotate: false
+  xy: 1809, 185
+  size: 60, 67
+  orig: 60, 67
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-共产主义崛起
+  rotate: false
+  xy: 1877, 184
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-德国军事顾问
+  rotate: false
+  xy: 1945, 184
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-总参谋部
+  rotate: false
+  xy: 1182, 63
+  size: 57, 64
+  orig: 57, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-腐败的国军
+  rotate: false
+  xy: 1115, 60
+  size: 59, 68
+  orig: 59, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-苦涩的失败者
+  rotate: false
+  xy: 1140, 136
+  size: 60, 66
+  orig: 60, 66
+  offset: 0, 0
+  index: -1
+PolicyIcons/贸易法案-封闭经济
+  rotate: false
+  xy: 1371, 140
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/贸易法案-有限出口
+  rotate: false
+  xy: 1419, 140
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/贸易法案-自由贸易
+  rotate: false
+  xy: 1467, 140
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+PolicyIcons/贸易法案-重视出口
+  rotate: false
+  xy: 1515, 140
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+ResourceIcons/人力
+  rotate: false
+  xy: 1281, 4
   size: 27, 27
   orig: 27, 27
   offset: 0, 0
   index: -1
-TechIcons/Tech.AntitankrifleI
+StatIcons/Culture
   rotate: false
-  xy: 956, 420
+  xy: 2013, 230
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+EmojiIcons/Faith
+  rotate: false
+  xy: 2013, 230
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+TechIcons/科技-反坦克步枪I
+  rotate: false
+  xy: 1314, 188
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TechIcons/Tech.AntitankrifleII
+TechIcons/科技-反坦克步枪II
   rotate: false
-  xy: 938, 68
+  xy: 1386, 188
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TechIcons/Tech.Basicinfantryequipment
+TechIcons/科技-基础步兵装备
   rotate: false
-  xy: 4, 16
+  xy: 1018, 228
   size: 120, 24
   orig: 120, 24
   offset: 0, 0
   index: -1
-TechIcons/Tech.ImprovedInfantryEquipmentI
+TechIcons/科技-改良步兵装备I
   rotate: false
-  xy: 947, 176
+  xy: 1458, 188
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TechIcons/Tech.ImprovedInfantryEquipmentII
+TechIcons/科技-改良步兵装备II
   rotate: false
-  xy: 356, 38
+  xy: 1530, 188
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-TechIcons/Tech.ImprovedInfantryEquipmentIII
+TechIcons/科技-改良步兵装备III
   rotate: false
-  xy: 428, 34
+  xy: 1602, 184
   size: 63, 68
   orig: 63, 68
   offset: 0, 0
   index: -1
-TechIcons/Tech.InfantryEquipmentI
+TechIcons/科技-步兵装备I
   rotate: false
-  xy: 398, 218
+  xy: 1018, 136
   size: 109, 30
   orig: 109, 30
   offset: 0, 0
   index: -1
-TechIcons/Tech.InfantryEquipmentII
+TechIcons/科技-步兵装备II
   rotate: false
-  xy: 276, 145
+  xy: 1018, 79
   size: 89, 49
   orig: 89, 49
   offset: 0, 0
   index: -1
-TechIcons/Tech.InfantryEquipmentIII
+TechIcons/科技-步兵装备III
   rotate: false
-  xy: 276, 202
+  xy: 1018, 174
   size: 114, 46
   orig: 114, 46
   offset: 0, 0
   index: -1
-UnitIcons/Unit.Infantry.I
+UnitIcons/单位-伞兵
   rotate: false
-  xy: 140, 548
+  xy: 1018, 29
+  size: 76, 42
+  orig: 76, 42
+  offset: 0, 0
+  index: -1
+UnitIcons/单位-山地步兵
+  rotate: false
+  xy: 1146, 210
+  size: 76, 42
+  orig: 76, 42
+  offset: 0, 0
+  index: -1
+UnitIcons/单位-步兵
+  rotate: false
+  xy: 1295, 96
   size: 36, 36
   orig: 36, 36
+  offset: 0, 0
+  index: -1
+UnitIcons/单位-自行车营
+  rotate: false
+  xy: 1230, 210
+  size: 76, 42
+  orig: 76, 42
   offset: 0, 0
   index: -1

@@ -5,25 +5,33 @@
 		"movement": 2,
 		"uniques": ["Can build [Farm] improvements on tiles",
 		],
-		"cost": 150
+		"cost": 100
 	},
 	{
-		"name": "Unit.Settler",//殖民者
+		"name": "单位-殖民者",//殖民者
 		"unitType": "unitType.Settler",
 		"movement": 2,
-		"cost": 300,
-		"uniques": ["Founds a new city <by consuming this unit>", 
+		"cost": 250,
+		"uniques": ["Founds a new city <by consuming this unit>",
+		//"Unbuildable",
 			],
 	},
 	{
-		"name": "Unit.Infantry.I",//步兵 I
-		"unitType": "unitType.Infantry",
+		"name": "单位-步兵",//步兵 I
+		"unitType": "单位类型-步兵",
 		"movement": 2,
 		"strength": 100,
-		"cost": 150,
+		"cost": 100,
 		//"obsoleteTech": "Scientific Theory",
 		"uniques": [
-		"Instantly consumes [5] [Manpower]",
+		//"Instantly consumes [10] [人力]",
+		"Consumes [10] [人力]",
+		//"Unbuildable",
+		//"Remove [基础步兵装备] [in this city] <hidden from users>",
+		/*"Remove [步兵装备I] [in this city] <hidden from users>",
+		"Remove [步兵装备II] [in this city] <hidden from users>",
+		"Remove [步兵装备III] [in this city] <hidden from users>",*/
+		"军队",
 		],
 	},
 	

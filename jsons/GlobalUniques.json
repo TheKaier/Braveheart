@@ -12,6 +12,9 @@
         //"[-1 Gold] from every [River]",//删除河流给钱
         "[-100]% [Gold] from Trade Routes",//取消贸易路线产出
         "[-100]% Golden Age length",//取消黄金时代
+        "[-100]% Culture cost of adopting new Policies",
+        //"[+99900]% Culture cost of adopting new Policies",
+        
         
         
         /*"Provides [1] [Manpower] <in cities with at least [1] [Population]>",
@@ -27,21 +30,46 @@
         //征集人力
         
         //城市产出修改
-        "[+10 Production] per [1] population [in all cities]",
-        "[+1 Gold] per [1] population [in all cities]",
+        "[+5 Production] per [1] population [in all cities]",
+        "[+1 Gold] per [2] population [in all cities]",
         "[+10 Production] [in all cities]",
         "[+5 Science] [in all cities]",
         
+        //"[+2 Food] per [1] population [in all cities]",//临时
+        
         
         //单位buff
-        "[All] units gain the [Unit] promotion <upon turn end>",
+        "[单位类型-步兵] units gain the [步兵] promotion <upon turn end>",
+        "步兵武器",
+        
+        
+        
+        "军队",
+        
+        
+        
+        //推行政策开门
+        //"Adopt [德意志国策]",
+        //"Adopt [民族精神]",
+        "Adopt [法案]",
+        "Adopt [征兵法案-志愿兵役制]",
+        "Adopt [贸易法案-重视出口]",
+        //国策点数-信仰
+        "[+7 Faith] [in capital]",
+        "Provides [15] [政治点数]",
+        "Instantly provides [300] [政治点数]",
+        
+        
+        
+        
+        
         
         
         //厌战稳定度及事件
-        "Triggers a [Event.War-weariness I] event <when above [4] [Faith]> <when below [1] [War-weariness]> <when at war> <with [33]% chance> <upon turn end>",
+        /*"Triggers a [Event.War-weariness I] event <when above [4] [Faith]> <when below [1] [War-weariness]> <when at war> <with [33]% chance> <upon turn end>",
         "Gain [2] [Faith] <when above [9] [Faith]> <when at war> <every [5] turns> <upon turn end>",
         "Gain [1] [Faith] <when above [49] [Faith]> <when at war> <every [1] turns> <upon turn end>",
-        "Gain [-1] [Faith] <when above [19] [Faith]> <when not at war> <every [1] turns> <upon turn end>",
+        "Gain [-1] [Faith] <when above [19] [Faith]> <when not at war> <every [1] turns> <upon turn end>",*/
         
         
         
@@ -49,7 +77,7 @@
         
         
         //稳定度
-        "Instantly consumes [1] [Stability] <when number of [Stability] is less than [Faith]> <every [1] turns> <upon turn end>",
+        /*"Instantly consumes [1] [Stability] <when number of [Stability] is less than [Faith]> <every [1] turns> <upon turn end>",
         "Instantly consumes [1] [Stability] <when above [80] [Stability]> <every [5] turns> <upon turn end>",
         "Instantly provides [1] [Stability] <when below [80] [Stability]> <every [10] turns> <upon turn end>",
         "Instantly consumes [1] [Stability] <when above [29] [Faith]> <every [5] turns> <upon turn end>",
@@ -67,7 +95,7 @@
         "[-25]% [Gold] [in all cities] <when below [40] [Stability]>",
         "[-25]% [Production] [in all cities] <when below [20] [Stability]>",
         "[-25]% [Science] [in all cities] <when below [20] [Stability]>",
-        "[-25]% [Gold] [in all cities] <when below [20] [Stability]>",
+        "[-25]% [Gold] [in all cities] <when below [20] [Stability]>",*/
         
         
         

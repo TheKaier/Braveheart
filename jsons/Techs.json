@@ -1,125 +1,91 @@
 [
 	{
-		"columnNumber": 0,
-		"era": "Era",
+		"columnNumber": 1,
+		"era": "步兵",
 		"techCost": 100,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Tech.Basicinfantryequipment",//基础步兵装备
-				"row": 5,
+				"name": "科技-基础步兵装备",//基础步兵装备
+				"row": 1,
 				"quote": "Primary infantry equipment developed during World War I.",
 				"uniques": ["Starting tech",
 				"Enables Defensive Pacts",
 				"Enables Open Borders agreements",
 				]
-				}
-
-			
-		]
-	},
-	{
-		"columnNumber": 1,
-		"era": "Era",
-		"techCost": 150,
-		"buildingCost": 60,
-		"wonderCost": 185,
-		"techs": [
+				},
 			{
-				"name": "Tech.InfantryEquipmentI",//步兵装备 I
-				"row": 5,
-				"prerequisites": ["Tech.Basicinfantryequipment"],
+				"name": "科技-步兵装备I",//步兵装备 I
+				"row": 2,
+				//"prerequisites": ["科技-基础步兵装备"],
 				"quote": "Infantry weapons used by individuals and troops, and other equipment required by soldiers."
+				"uniques": [
+				"Only available <after discovering [科技-基础步兵装备]>",
+				]
 			},
-			]
-	},	
-	{
-		"columnNumber": 2,
-		"era": "Era",
-		"techCost": 150,
-		"buildingCost": 75,
-		"wonderCost": 185,
-		"techs": [
 			{
-				"name": "Tech.ImprovedInfantryEquipmentI",//改良步兵装备 I
-				"row": 5,
-				"prerequisites": ["Tech.InfantryEquipmentI"],
+				"name": "科技-改良步兵装备I",//改良步兵装备 I
+				"row": 3,
+				//"prerequisites": ["科技-步兵装备I"],
 				"quote": ""
+				"uniques": [
+				"Only available <after discovering [科技-步兵装备I]>",
+				]
 			},
-					
-		]
-	},
-	{
-		"columnNumber": 3,
-		"era": "Era",
-		"techCost": 200,
-		"buildingCost": 75,
-		"wonderCost": 185,
-		"techs": [
 			{
-				"name": "Tech.InfantryEquipmentII",//步兵装备 II
-				"row": 5,
-				"prerequisites": ["Tech.ImprovedInfantryEquipmentI"],
+				"name": "科技-步兵装备II",//步兵装备 II
+				"row": 4,
+				//"prerequisites": ["科技-改良步兵装备I"],
 				"quote": "Infantry weapons used by individuals and troops, and other equipment required by soldiers. More modern, with a massive addition of submachine guns and anti-tank rifle."
+				"uniques": [
+				"Only available <after discovering [科技-改良步兵装备I]>",
+				]
 			},
-					
-		]
-	},
-	{
-		"columnNumber": 4,
-		"era": "Era",
-		"techCost": 150,
-		"buildingCost": 75,
-		"wonderCost": 185,
-		"techs": [
 			{
-				"name": "Tech.ImprovedInfantryEquipmentII",//改良步兵装备 II
+				"name": "科技-改良步兵装备II",//改良步兵装备 II
 				"row": 5,
-				"prerequisites": ["Tech.InfantryEquipmentII"],
+				//"prerequisites": ["科技-步兵装备II"],
 				"quote": "The unit or heavy weapon used by infantry includes other miscellaneous equipment required; the weapon is of a more advanced type and the equipment is more professional."
+				"uniques": [
+				"Only available <after discovering [科技-步兵装备II]>",
+				]
 			},
 			{
-				"name": "Tech.AntitankrifleI",//反坦克步枪 I
+				"name": "科技-反坦克步枪I",//反坦克步枪 I
 				"row": 6,
-				"prerequisites": ["Tech.InfantryEquipmentII"],
+				//"prerequisites": ["科技-步兵装备II"],
 				"quote": "Equipping our infantry units with anti-tank rifle will allow them to fight light armoured vehicles without losing power."
+				"uniques": [
+				"Only available <after discovering [科技-步兵装备II]>",
+				]
 			},	
-		]
-	},
-	{
-		"columnNumber": 5,
-		"era": "Era",
-		"techCost": 200,
-		"buildingCost": 75,
-		"wonderCost": 185,
-		"techs": [
 			{
-				"name": "Tech.InfantryEquipmentIII",//步兵装备 III
-				"row": 5,
-				"prerequisites": ["Tech.ImprovedInfantryEquipmentII"],
+				"name": "科技-步兵装备III",//步兵装备 III
+				"row": 7,
+				//"prerequisites": ["科技-改良步兵装备II"],
 				"quote": "The unit or heavy weapon used by infantry includes other miscellaneous equipment required; the weapon is of a more advanced type and the equipment is more professional."
+				"uniques": [
+				"Only available <after discovering [科技-改良步兵装备II]>",
+				]
 			},
 			{
-				"name": "Tech.AntitankrifleII",//反坦克步枪 II
-				"row": 6,
-				"prerequisites": ["Tech.AntitankrifleI"],
+				"name": "科技-反坦克步枪II",//反坦克步枪 II
+				"row": 8,
+				//"prerequisites": ["科技-反坦克步枪I"],
 				"quote": "For infantry to be effective against heavier armoured vehicles, smaller hollow-charge weapons must be manufactured."
+				"uniques": [
+				"Only available <after discovering [科技-反坦克步枪I]>",
+				]
 			},	
-		]
-	},
-{
-		"columnNumber": 6,
-		"era": "Era",
-		"techCost": 200,
-		"buildingCost": 75,
-		"wonderCost": 185,
-		"techs": [
 			{
-				"name": "Tech.ImprovedInfantryEquipmentIII",//改良步兵装备 III
-				"row": 5,
-				"prerequisites": ["Tech.InfantryEquipmentIII"],
+				"name": "科技-改良步兵装备III",//改良步兵装备 III
+				"row": 9,
+				//"prerequisites": ["科技-步兵装备III"],
 				"quote": "The units or heavy weapons used by infantry include other miscellaneous equipment required; advanced weapons such as assault rifles and anti-tank rocket launchers; and the spread of small-range weapons."
+				"uniques": [
+				"Only available <after discovering [科技-步兵装备III]>",
+				]
 			},
 		]
 	},

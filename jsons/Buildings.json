@@ -5,7 +5,7 @@
 		//"production": 3,
 		//"science": 3,
 		//"faith": 1,
-		//"culture": 1,
+		"culture": 1,
 		//"cityStrength": 10,
 		"cost": 1,
 		"uniques": ["Indicates the capital city",
@@ -14,20 +14,165 @@
 	{
 		"name": "Building.Manpower",
 		"cost": 1,
+		"culture": 1,
 		"uniques": [
 		"Unsellable",
         "Automatically built in all cities where it is buildable",
-		"Provides [1] [Manpower] <in cities with at least [1] [Population]>",
-        "Provides [1] [Manpower] <in cities with at least [2] [Population]> <when below [76] [Faith]>",
-		"Provides [1] [Manpower] <in cities with at least [3] [Population]> <when below [76] [Faith]>",
-        "Provides [1] [Manpower] <in cities with at least [4] [Population]> <when below [51] [Faith]>",
-        "Provides [1] [Manpower] <in cities with at least [5] [Population]> <when below [31] [Faith]>",
-        "Provides [1] [Manpower] <in cities with at least [6] [Population]>",
-        "Provides [1] [Manpower] <in cities with at least [7] [Population]> <when below [76] [Faith]>",
-		"Provides [1] [Manpower] <in cities with at least [8] [Population]> <when below [76] [Faith]>",
-        "Provides [1] [Manpower] <in cities with at least [9] [Population]> <when below [51] [Faith]>",
-        "Provides [1] [Manpower] <in cities with at least [10] [Population]> <when below [31] [Faith]>",
-		
+		//"Provides [10] [人力] <for every [1] [Population]>",
+		"Provides [10] [人力] <in cities with at least [1] [Population]>",
+		"Provides [10] [人力] <in cities with at least [2] [Population]>",
+		"Provides [10] [人力] <in cities with at least [3] [Population]>",
+		"Provides [10] [人力] <in cities with at least [4] [Population]>",
+		"Provides [10] [人力] <in cities with at least [5] [Population]>",
+		"Provides [10] [人力] <in cities with at least [6] [Population]>",
+		"Provides [10] [人力] <in cities with at least [7] [Population]>",
+		"Provides [10] [人力] <in cities with at least [8] [Population]>",
+		"Provides [10] [人力] <in cities with at least [9] [Population]>",
+		"Provides [10] [人力] <in cities with at least [10] [Population]>",
+				"Consumes [5] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-非军事化国家]>",
+		"Consumes [5] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-非军事化国家]>",
+		"Consumes [5] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-非军事化国家]>",
+		"Consumes [5] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-非军事化国家]>",
+		"Consumes [5] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-非军事化国家]>",
+		"Consumes [5] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-非军事化国家]>",
+		"Consumes [5] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-非军事化国家]>",
+		"Consumes [5] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-非军事化国家]>",
+		"Consumes [5] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-非军事化国家]>",
+		"Consumes [5] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-非军事化国家]>",
+
+		"Provides [5] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-有限征兵]>",
+		"Provides [5] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-有限征兵]>",
+		"Provides [5] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-有限征兵]>",
+		"Provides [5] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-有限征兵]>",
+		"Provides [5] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-有限征兵]>",
+		"Provides [5] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-有限征兵]>",
+		"Provides [5] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-有限征兵]>",
+		"Provides [5] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-有限征兵]>",
+		"Provides [5] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-有限征兵]>",
+		"Provides [5] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-有限征兵]>",
+
+		"Provides [20] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-广泛征兵]>",
+		"Provides [20] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-广泛征兵]>",
+		"Provides [20] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-广泛征兵]>",
+		"Provides [20] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-广泛征兵]>",
+		"Provides [20] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-广泛征兵]>",
+		"Provides [20] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-广泛征兵]>",
+		"Provides [20] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-广泛征兵]>",
+		"Provides [20] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-广泛征兵]>",
+		"Provides [20] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-广泛征兵]>",
+		"Provides [20] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-广泛征兵]>",
+
+		"Provides [50] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-按需服兵役]>",
+		"Provides [50] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-按需服兵役]>",
+		"Provides [50] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-按需服兵役]>",
+		"Provides [50] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-按需服兵役]>",
+		"Provides [50] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-按需服兵役]>",
+		"Provides [50] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-按需服兵役]>",
+		"Provides [50] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-按需服兵役]>",
+		"Provides [50] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-按需服兵役]>",
+		"Provides [50] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-按需服兵役]>",
+		"Provides [50] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-按需服兵役]>",
+
+		"Provides [110] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
+		"Provides [110] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
+		"Provides [110] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
+		"Provides [110] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
+		"Provides [110] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
+		"Provides [110] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
+		"Provides [110] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
+		"Provides [110] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
+		"Provides [110] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
+		"Provides [110] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-所有成年服兵役]>",
+
+		"Provides [140] [人力] <in cities with at least [1] [Population]> <after adopting [征兵法案-榨干他们]>",
+		"Provides [140] [人力] <in cities with at least [2] [Population]> <after adopting [征兵法案-榨干他们]>",
+		"Provides [140] [人力] <in cities with at least [3] [Population]> <after adopting [征兵法案-榨干他们]>",
+		"Provides [140] [人力] <in cities with at least [4] [Population]> <after adopting [征兵法案-榨干他们]>",
+		"Provides [140] [人力] <in cities with at least [5] [Population]> <after adopting [征兵法案-榨干他们]>",
+		"Provides [140] [人力] <in cities with at least [6] [Population]> <after adopting [征兵法案-榨干他们]>",
+		"Provides [140] [人力] <in cities with at least [7] [Population]> <after adopting [征兵法案-榨干他们]>",
+		"Provides [140] [人力] <in cities with at least [8] [Population]> <after adopting [征兵法案-榨干他们]>",
+		"Provides [140] [人力] <in cities with at least [9] [Population]> <after adopting [征兵法案-榨干他们]>",
+		"Provides [140] [人力] <in cities with at least [10] [Population]> <after adopting [征兵法案-榨干他们]>",
 		]
 	},
+	/*{
+		"name": "训练步兵",//
+		"cost": 100,
+		"uniques": [
+		"Consumes [10] [人力]",
+		//"Remove [训练步兵] [in this city] <hidden from users>",
+		"[1] free [单位-步兵] units appear",
+		"Unsellable",
+		"Only available <in cities with a [步兵武器]>",
+		
+		//拆除步兵的装备建筑
+		/*"Remove [基础步兵装备] [in this city] <upon gaining a [单位-步兵] unit> <hidden from users>",
+		"Remove [步兵装备I] [in this city] <hidden from users>",
+		"Remove [步兵装备II] [in this city] <hidden from users>",
+		"Remove [步兵装备III] [in this city] <hidden from users>",
+		
+		],
+	},*/
+	{
+		"name": "基础步兵装备",//43
+		"cost": 0,
+		"uniques": [
+		"All newly-trained [单位-步兵] units [in this city] receive the [晋升-基础步兵装备] promotion",
+		"Only available <in cities without a [步兵武器]>",
+		"[-30]% Production when constructing [单位-步兵] units [in this city]",
+		"步兵武器",
+		],
+	},
+	{
+		"name": "步兵装备I",//50
+		"cost": 0,
+		"uniques": [
+		"All newly-trained [单位-步兵] units [in this city] receive the [晋升-步兵装备I] promotion",
+		"Only available <in cities without a [步兵武器]>",
+		"[-33]% Production when constructing [单位-步兵] units [in this city]",
+		"步兵武器",
+		],
+		"requiredTech": "科技-步兵装备I"
+	},
+	{
+		"name": "步兵装备II",//58
+		"cost": 0,
+		"uniques": [
+		"All newly-trained [单位-步兵] units [in this city] receive the [晋升-步兵装备II] promotion",
+		"Only available <in cities without a [步兵武器]>",
+		"[-36]% Production when constructing [单位-步兵] units [in this city]",
+		"步兵武器",
+		],
+		"requiredTech": "科技-步兵装备II"
+	},
+	{
+		"name": "步兵装备III",//69
+		"cost": 0,
+		"uniques": [
+		"All newly-trained [单位-步兵] units [in this city] receive the [晋升-步兵装备III] promotion",
+		"Only available <in cities without a [步兵武器]>",
+		"[-40]% Production when constructing [单位-步兵] units [in this city]",
+		"步兵武器",
+		],
+		"requiredTech": "科技-步兵装备III"
+	},
+	/*基础步兵装备
+步兵装备I
+步兵装备II
+步兵装备III
+改良步兵装备I
+改良步兵装备II
+改良步兵装备III
+反坦克步枪I
+反坦克步枪II*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
 ]

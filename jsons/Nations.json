@@ -10,8 +10,8 @@
 
 	// Nations
 	{
-		"name": "Nation.China",//中华民国
-		"leaderName": "Jiang Jieshi",
+		"name": "中华民国",//中华民国
+		"leaderName": "蒋介石",
 		"adjective": [""],
 		//"preferredVictoryType": "",
 
@@ -31,7 +31,14 @@
 		"favouredReligion": "",
 		"uniqueName": "",
 		"uniques": [
-		
+		"Adopt [民族精神-九国公约]",
+		"Adopt [民族精神-共产主义崛起]",
+		"Adopt [民族精神-腐败的国军]",
+		"Adopt [民族精神-低效的官僚制度]",
+		"Adopt [民族精神-低能的军官团]",
+		"Adopt [民族精神-德国军事顾问]",
+		"Adopt [民族精神-低度通货膨胀]",
+		"[3] free [单位-殖民者] units appear",
 		],
 		/*"civilopediaText":[
         {"text": ""},
@@ -45,8 +52,8 @@
     },
 	
 	{
-		"name": "Nation.Japan",
-		"leaderName": "Leader",
+		"name": "日本",
+		"leaderName": "天皇",
 		"adjective": [""],
 		//"preferredVictoryType": "Domination",
 		"startIntroPart1": "",
@@ -70,6 +77,53 @@
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
         "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
 	},
+		{
+		"name": "德意志国",//德意志国-德国
+		"leaderName": "阿道夫•希特勒",
+		"adjective": [""],
+		//"preferredVictoryType": "",
+
+        "startIntroPart1": "一个崭新的德意志正在崛起，自魏玛共和国解散并被希特勒的第三帝国取代以来，已经过去了三年。如今，在艰难地捱过了大萧条的前几个年头之后，经济秩序正重归稳定，大量的失业问题也得以解决。\n\n凡尔赛条约中对德国军队施加的限制早已被抛诸脑后，国防军正日益壮大，另一场世界大战已初露端倪。",
+        "startIntroPart2": "",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"tradeRequest": "",
+
+        "outerColor": [0,0,0],
+        "innerColor": [255,255,255],
+
+
+		"favouredReligion": "",
+		"uniqueName": "",
+		"uniques": [
+		"Adopt [德意志国策]",
+		"Adopt [民族精神-苦涩的失败者]",
+		"Adopt [民族精神-总参谋部]",
+		
+		
+		
+		],
+		/*"civilopediaText":[
+        {"text": ""},
+    ],*/
+		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
+			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
+			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
+			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrücken","Krefeld","Pirmasens","Potsdam","Solingen",
+			"Osnabrück","Ludwigshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg",
+			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
+        "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
+
+    },
+	
+	
+	
+	
+	
+	
 	// City-States
 	/*{
 		"name": "The Archive",

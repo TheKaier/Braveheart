@@ -8,7 +8,17 @@
         "movementType": "Land"
     },
     {
-        "name": "unitType.Infantry",//步兵
+        "name": "单位类型-步兵",//步兵
         "movementType": "Land"
     },
+    {
+        "name": "单位类型-装甲",//
+        "movementType": "Land"
+    },
+    
+    
+    
+    
+    
+    
 ]
