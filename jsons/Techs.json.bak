@@ -5,7 +5,7 @@
 		{
 		"columnNumber": 0,
 		"era": "循环科技",
-		"techCost": 10000,
+		"techCost": 100000000,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
@@ -14,7 +14,7 @@
 				"row": 1,
 				"quote": "",
 				"uniques": [
-				//"Can be continually researched"
+				"Can be continually researched"
 				]
 				},
 		]
@@ -22,7 +22,7 @@
 	{
 		"columnNumber": 1,
 		"era": "步兵",
-		"techCost": 500,
+		"techCost": 0,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
@@ -41,9 +41,8 @@
 				//"prerequisites": ["科技-基础步兵装备"],
 				"quote": "Infantry weapons used by individuals and troops, and other equipment required by soldiers."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-基础步兵装备]>",
-				//"Only available <when above [1499] [Science]>",
+				"Only available <after discovering [科技-基础步兵装备]>",
+				"Only available <when above [2000] [Science]>",
 				"Gain [-2000] [Science]",
 				]
 			},
@@ -53,9 +52,8 @@
 				//"prerequisites": ["科技-步兵装备I"],
 				"quote": ""
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-步兵装备I]>",
-				//"Only available <when above [1599] [Science]>",
+				"Only available <after discovering [科技-步兵装备I]>",
+				"Only available <when above [2000] [Science]>",
 				"Gain [-2000] [Science]",
 				]
 			},
@@ -65,9 +63,8 @@
 				//"prerequisites": ["科技-改良步兵装备I"],
 				"quote": "Infantry weapons used by individuals and troops, and other equipment required by soldiers. More modern, with a massive addition of submachine guns and anti-tank rifle."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-改良步兵装备I]>",
-				//"Only available <when above [2499] [Science]>",
+				"Only available <after discovering [科技-改良步兵装备I]>",
+				"Only available <when above [3000] [Science]>",
 				"Gain [-3000] [Science]",
 				]
 			},
@@ -77,9 +74,8 @@
 				//"prerequisites": ["科技-步兵装备II"],
 				"quote": "The unit or heavy weapon used by infantry includes other miscellaneous equipment required; the weapon is of a more advanced type and the equipment is more professional."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-步兵装备II]>",
-				//"Only available <when above [2499] [Science]>",
+				"Only available <after discovering [科技-步兵装备II]>",
+				"Only available <when above [3000] [Science]>",
 				"Gain [-3000] [Science]",
 				]
 			},
@@ -89,9 +85,8 @@
 				//"prerequisites": ["科技-步兵装备II"],
 				"quote": "Equipping our infantry units with anti-tank rifle will allow them to fight light armoured vehicles without losing power."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-步兵装备II]>",
-				//"Only available <when above [1499] [Science]>",
+				"Only available <after discovering [科技-步兵装备II]>",
+				"Only available <when above [2000] [Science]>",
 				"Gain [-2000] [Science]",
 				]
 			},	
@@ -101,9 +96,8 @@
 				//"prerequisites": ["科技-改良步兵装备II"],
 				"quote": "The unit or heavy weapon used by infantry includes other miscellaneous equipment required; the weapon is of a more advanced type and the equipment is more professional."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-改良步兵装备II]>",
-				//"Only available <when above [2499] [Science]>",
+				"Only available <after discovering [科技-改良步兵装备II]>",
+				"Only available <when above [3000] [Science]>",
 				"Gain [-3000] [Science]",
 				]
 			},
@@ -113,9 +107,8 @@
 				//"prerequisites": ["科技-反坦克步枪I"],
 				"quote": "For infantry to be effective against heavier armoured vehicles, smaller hollow-charge weapons must be manufactured."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-反坦克步枪I]>",
-				//"Only available <when above [1499] [Science]>",
+				"Only available <after discovering [科技-反坦克步枪I]>",
+				"Only available <when above [2000] [Science]>",
 				"Gain [-2000] [Science]",
 				]
 			},	
@@ -125,9 +118,8 @@
 				//"prerequisites": ["科技-步兵装备III"],
 				"quote": "The units or heavy weapons used by infantry include other miscellaneous equipment required; advanced weapons such as assault rifles and anti-tank rocket launchers; and the spread of small-range weapons."
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-步兵装备III]>",
-				//"Only available <when above [1599] [Science]>",
+				"Only available <after discovering [科技-步兵装备III]>",
+				"Only available <when above [2000] [Science]>",
 				"Gain [-2000] [Science]",
 				]
 			},
@@ -136,7 +128,7 @@
 	{
 		"columnNumber": 2,
 		"era": "山地步兵",
-		"techCost": 500,
+		"techCost": 0,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
@@ -145,10 +137,9 @@
 				"row": 1,
 				"quote": "文本-科技-山地步兵I",
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-基础步兵装备]>",
-				//"Only available <when above [2499] [Science]>",
-				"Gain [-3000] [Science]",
+				"Only available <after discovering [科技-基础步兵装备]>",
+				"Only available <when above [3000] [Science]>",
+                "Gain [-3000] [Science]",
 				]
 				},
 			{
@@ -156,9 +147,8 @@
 				"row": 2,
 				"quote": "文本-科技-山地步兵II"
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-山地步兵I]>",
-				//"Only available <when above [1499] [Science]>",
+				"Only available <after discovering [科技-山地步兵I]>",
+				"Only available <when above [2000] [Science]>",
                 "Gain [-2000] [Science]",
 				]
 			},
@@ -167,10 +157,9 @@
 				"row": 3,
 				"quote": "文本-科技-山地步兵III"
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-山地步兵II]>",
-				//"Only available <when above [2499] [Science]>",
-				"Gain [-3000] [Science]",
+				"Only available <after discovering [科技-山地步兵II]>",
+				"Only available <when above [3000] [Science]>",
+                "Gain [-3000] [Science]",
 				]
 			},
 		]
@@ -178,7 +167,7 @@
 	{
 		"columnNumber": 3,
 		"era": "伞兵",
-		"techCost": 500,
+		"techCost": 0,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
@@ -187,10 +176,9 @@
 				"row": 1,
 				"quote": "文本-科技-伞兵I",
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-基础步兵装备]>",
-				//"Only available <when above [2499] [Science]>",
-				"Gain [-3000] [Science]",
+				"Only available <after discovering [科技-基础步兵装备]>",
+				"Only available <when above [3000] [Science]>",
+                "Gain [-3000] [Science]",
 				]
 				},
 			{
@@ -198,9 +186,8 @@
 				"row": 2,
 				"quote": "文本-科技-伞兵II"
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-伞兵I]>",
-				//"Only available <when above [1499] [Science]>",
+				"Only available <after discovering [科技-伞兵I]>",
+				"Only available <when above [2000] [Science]>",
                 "Gain [-2000] [Science]",
 				]
 			},
@@ -209,10 +196,9 @@
 				"row": 3,
 				"quote": "文本-科技-伞兵III"
 				"uniques": [
-				"Unavailable",
-				//"Only available <after discovering [科技-伞兵II]>",
-				//"Only available <when above [2499] [Science]>",
-				"Gain [-3000] [Science]",
+				"Only available <after discovering [科技-伞兵II]>",
+				"Only available <when above [3000] [Science]>",
+                "Gain [-3000] [Science]",
 				]
 			},
 		]

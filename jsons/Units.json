@@ -4,6 +4,8 @@
 		"unitType": "unitType.Worker",
 		"movement": 2,
 		"uniques": ["Can build [Farm] improvements on tiles",
+		"平民",
+		
 		],
 		"cost": 100
 	},
@@ -13,6 +15,7 @@
 		"movement": 2,
 		"cost": 250,
 		"uniques": ["Founds a new city <by consuming this unit>",
+		"平民",
 		//"Unbuildable",
 			],
 	},
@@ -22,7 +25,7 @@
 		"movement": 2,
 		"strength": 100,
 		"cost": 100,
-		//"obsoleteTech": "Scientific Theory",
+		//"requiredTech": "Scientific Theory",
 		"uniques": [
 		//"Instantly consumes [10] [人力]",
 		"Consumes [10] [人力]",
@@ -34,10 +37,38 @@
 		"军队",
 		],
 	},
+	{
+		"name": "单位-山地步兵",//步兵 I
+		"unitType": "单位类型-步兵",
+		"movement": 2,
+		"strength": 100,
+		"cost": 150,
+		"requiredTech": "科技-山地步兵I",
+		"uniques": [
+		//"Instantly consumes [10] [人力]",
+		"Consumes [10] [人力]",
+		"[+15]% Strength <in [Hill] tiles>",
+		//"Unbuildable",
+		"军队",
+		],
+	},
+		{
+		"name": "单位-伞兵",//步兵 I
+		"unitType": "单位类型-步兵",
+		"movement": 2,
+		"strength": 110,
+		"cost": 180,
+		"requiredTech": "科技-伞兵I",
+		"uniques": [
+		//"Instantly consumes [10] [人力]",
+		"Consumes [10] [人力]",
+		"May Paradrop up to [4] tiles from inside friendly territory",
+		//"Unbuildable",
+		"军队",
+		],
+	},
 	
 	
-	
-	
-	
+	//"May Paradrop up to [4] tiles from inside friendly territory",
 	
 ]

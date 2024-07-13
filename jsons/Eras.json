@@ -1,13 +1,13 @@
 [
     {
-        "name": "步兵",
+        "name": "循环科技",
         "researchAgreementCost": 150,
         "startingSettlerUnit":"单位-殖民者",
         "startingWorkerUnit":"Unit.Worker",
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
-        "startingMilitaryUnitCount": 0,
-        "startingMilitaryUnit": "步兵",
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "单位-步兵",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 0,
         "embarkDefense": 150,
@@ -18,5 +18,62 @@
         
         ]
     },
-
+    {
+        "name": "步兵",
+        "researchAgreementCost": 150,
+        "startingSettlerUnit":"单位-殖民者",
+        "startingWorkerUnit":"Unit.Worker",
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "单位-步兵",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 0,
+        "embarkDefense": 150,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35],
+        "uniques":[
+        
+        ]
+    },
+    {
+        "name": "山地步兵",
+        "researchAgreementCost": 150,
+        "startingSettlerUnit":"单位-殖民者",
+        "startingWorkerUnit":"Unit.Worker",
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "单位-步兵",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 0,
+        "embarkDefense": 150,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35],
+        "uniques":[
+        
+        ]
+    },
+    {
+        "name": "伞兵",
+        "researchAgreementCost": 150,
+        "startingSettlerUnit":"单位-殖民者",
+        "startingWorkerUnit":"Unit.Worker",
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "单位-步兵",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 0,
+        "embarkDefense": 150,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35],
+        "uniques":[
+        
+        ]
+    },
+    
 ]

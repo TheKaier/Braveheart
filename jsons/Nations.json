@@ -31,6 +31,7 @@
 		"favouredReligion": "",
 		"uniqueName": "",
 		"uniques": [
+		"Adopt [通用国策]",
 		"Adopt [民族精神-九国公约]",
 		"Adopt [民族精神-共产主义崛起]",
 		"Adopt [民族精神-腐败的国军]",
@@ -38,7 +39,9 @@
 		"Adopt [民族精神-低能的军官团]",
 		"Adopt [民族精神-德国军事顾问]",
 		"Adopt [民族精神-低度通货膨胀]",
-		"[3] free [单位-殖民者] units appear",
+		"[1] free [单位-殖民者] units appear",
+		"[+15 Happiness]",
+		
 		],
 		/*"civilopediaText":[
         {"text": ""},
@@ -70,6 +73,7 @@
 		"style": "",
 		"uniqueName": "",
 		"uniques": [
+		"Adopt [通用国策]",
 		],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
 			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
@@ -99,10 +103,11 @@
 		"favouredReligion": "",
 		"uniqueName": "",
 		"uniques": [
-		"Adopt [德意志国策]",
+		//"Adopt [德意志国策]",
+		"Adopt [通用国策]",
 		"Adopt [民族精神-苦涩的失败者]",
 		"Adopt [民族精神-总参谋部]",
-		
+		"[+5 Happiness]",
 		
 		
 		],

@@ -1,65 +1,53 @@
 [//"Triggers a [事件名] event"
-    /*{
-        "name":"Event.War-weariness I",//厌战I
-        "text":"The people were worried about the war, they organized the march, they wanted the war to stop.",
+    {
+        "name":"事件-科技研发",
+        "text":"选择对应的选项，研发对应科技",
         "choices":[
         {
-        "text":"Put them down!",
+        "text":"我不要研发科技",
         "triggeredUniques":[
-        "Gain [5] [Faith] <with [50]% chance>",
-        "Instantly provides [1] [War-weariness] <with [25]% chance> <hidden from users>",
+        
 		    ],
         },
         {
-        "text":"Make a show of.",
+        "text":"步兵科技",
         "triggeredUniques":[
-        "Gain [2] [Faith]",
-        "Gain [-50] [Gold]",
-        "Instantly provides [1] [War-weariness] <with [35]% chance> <hidden from users>",
+        "Discover [科技-步兵装备I] <when above [1999] [Science]> <hidden from users>",
+        "Discover [科技-改良步兵装备I] <after discovering [科技-步兵装备I]> <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-步兵装备II] <after discovering [科技-改良步兵装备I]> <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-改良步兵装备II] <after discovering [科技-步兵装备II]> <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-步兵装备III] <after discovering [科技-改良步兵装备II]> <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-改良步兵装备III] <after discovering [科技-步兵装备III]> <when above [1999] [Science]> <hidden from users>",
+		    ],
+        },
+        {
+        "text":"反坦克步枪科技",
+        "triggeredUniques":[
+        "Discover [科技-反坦克步枪I] <after discovering [科技-步兵装备II]> <when above [1999] [Science]> <hidden from users>",
+        "Discover [科技-反坦克步枪II] <after discovering [科技-反坦克步枪I]> <when above [1999] [Science]> <hidden from users>",
             ],
         },
         {
-        "text":"A mere parade...",
+        "text":"山地步兵科技",
         "triggeredUniques":[
-        "Instantly consumes [5] [Stability]",
-        //"Triggers a [Event.War-weariness I-1] event <with [25]% chance> <hidden from users>",
-        "Instantly provides [1] [War-weariness] <with [45]% chance> <hidden from users>",
+        "Discover [科技-山地步兵I] <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-山地步兵II] <after discovering [科技-山地步兵I]> <when above [1999] [Science]> <hidden from users>",
+        "Discover [科技-山地步兵III] <after discovering [科技-山地步兵II]> <when above [2999] [Science]> <hidden from users>",
+            ],
+        },
+        {
+        "text":"伞兵科技",
+        "triggeredUniques":[
+        "Discover [科技-伞兵I] <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-伞兵II] <after discovering [科技-伞兵I]> <when above [1999] [Science]> <hidden from users>",
+        "Discover [科技-伞兵III] <after discovering [科技-伞兵II]> <when above [2999] [Science]> <hidden from users>",
             ],
         }
         ]
     },
-    {
-        "name":"Event.War-weariness I-1",//厌战I-1
-        "text":"The people were angry at the government's disregard, so they decided to organize a bigger action.",
-        "choices":[
-        {
-        "text":"Capture their leader!",
-        "triggeredUniques":[
-        "Gain [5] [Faith]",
-        "Instantly consumes [3] [Stability]",
-		    ],
-        },
-        {
-        "text":"Put them down!",
-        "triggeredUniques":[
-        "Instantly consumes [3] [Stability]",
-        "Gain [-50] [Gold]",
-        "Instantly consumes [15] [Manpower]",
-            ],
-        },
-        {
-        "text":"The war will soon be over!",
-        "triggeredUniques":[
-        "Gain [-3] [Faith]",
-        "Gain [-100] [Gold]",
-            ],
-        },
-            ],
-        }
-        
-    
-*/
+
 ]
+//"Remove [科技研发-步兵] <hidden from users>",
     //<with [20]% chance>
     //<after [40] turns>
     //<when at war>

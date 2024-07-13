@@ -152,6 +152,22 @@
 		"Stockpiled"//库存
 		]
 	},
-	
-	
+	{
+		"name": "战争支持度",//
+		"resourceType": "Strategic",
+		//"revealedBy": "Future Tech",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	{
+		"name": "陆军经验",//
+		"resourceType": "Strategic",
+		//"revealedBy": "Future Tech",
+		"uniques": [
+		//"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
 ]

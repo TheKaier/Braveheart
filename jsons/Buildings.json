@@ -118,9 +118,11 @@
 		"name": "基础步兵装备",//43
 		"cost": 0,
 		"uniques": [
-		"All newly-trained [单位-步兵] units [in this city] receive the [晋升-基础步兵装备] promotion",
+		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-基础步兵装备] promotion",
 		"Only available <in cities without a [步兵武器]>",
 		"[-30]% Production when constructing [单位-步兵] units [in this city]",
+		"[-22]% Production when constructing [单位-山地步兵] units [in this city]",
+		"[-19]% Production when constructing [单位-伞兵] units [in this city]",
 		"步兵武器",
 		],
 	},
@@ -128,9 +130,11 @@
 		"name": "步兵装备I",//50
 		"cost": 0,
 		"uniques": [
-		"All newly-trained [单位-步兵] units [in this city] receive the [晋升-步兵装备I] promotion",
+		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-步兵装备I] promotion",
 		"Only available <in cities without a [步兵武器]>",
 		"[-33]% Production when constructing [单位-步兵] units [in this city]",
+		"[-25]% Production when constructing [单位-山地步兵] units [in this city]",
+		"[-21]% Production when constructing [单位-伞兵] units [in this city]",
 		"步兵武器",
 		],
 		"requiredTech": "科技-步兵装备I"
@@ -139,9 +143,11 @@
 		"name": "步兵装备II",//58
 		"cost": 0,
 		"uniques": [
-		"All newly-trained [单位-步兵] units [in this city] receive the [晋升-步兵装备II] promotion",
+		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-步兵装备II] promotion",
 		"Only available <in cities without a [步兵武器]>",
 		"[-36]% Production when constructing [单位-步兵] units [in this city]",
+		"[-28]% Production when constructing [单位-山地步兵] units [in this city]",
+		"[-24]% Production when constructing [单位-伞兵] units [in this city]",
 		"步兵武器",
 		],
 		"requiredTech": "科技-步兵装备II"
@@ -150,9 +156,11 @@
 		"name": "步兵装备III",//69
 		"cost": 0,
 		"uniques": [
-		"All newly-trained [单位-步兵] units [in this city] receive the [晋升-步兵装备III] promotion",
+		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-步兵装备III] promotion",
 		"Only available <in cities without a [步兵武器]>",
 		"[-40]% Production when constructing [单位-步兵] units [in this city]",
+		"[-31]% Production when constructing [单位-山地步兵] units [in this city]",
+		"[-27]% Production when constructing [单位-伞兵] units [in this city]",
 		"步兵武器",
 		],
 		"requiredTech": "科技-步兵装备III"
@@ -166,7 +174,181 @@
 改良步兵装备III
 反坦克步枪I
 反坦克步枪II*/
-	
+//"[+5]% Production
+	{
+		"name": "民用工厂1",//
+		"cost":75,
+		"uniques": [
+		"[+50]% Production when constructing [民用工厂] buildings [in all cities]",
+		"[+50]% Production when constructing [军用工厂] buildings [in all cities]",
+		"[+50]% Production when constructing [平民] units [in all cities]",
+		"Only available <in cities without a [军用工厂8]>",
+		"民用工厂",
+	]
+	},
+	{
+		"name": "民用工厂2",
+		"cost":150,
+		"requiredBuilding": "民用工厂1",	
+		"uniques": [
+		"[+50]% Production when constructing [民用工厂] buildings [in all cities]",
+		"[+50]% Production when constructing [军用工厂] buildings [in all cities]",
+		"[+50]% Production when constructing [平民] units [in all cities]",
+		"Only available <in cities without a [军用工厂7]>",
+		"民用工厂",
+	]
+	},
+	{
+		"name": "民用工厂3",
+		"cost":200,
+		"requiredBuilding": "民用工厂2",	
+		"uniques": [
+		"[+50]% Production when constructing [民用工厂] buildings [in all cities]",
+		"[+50]% Production when constructing [军用工厂] buildings [in all cities]",
+		"[+50]% Production when constructing [平民] units [in all cities]",
+		"Only available <in cities without a [军用工厂6]>",
+		"民用工厂",
+	]
+	},
+	{
+		"name": "民用工厂4",
+		"cost":250,
+		"requiredBuilding": "民用工厂3",	
+		"uniques": [
+		"[+100]% Production when constructing [民用工厂] buildings [in all cities]",
+		"[+50]% Production when constructing [军用工厂] buildings [in all cities]",
+		"[+100]% Production when constructing [平民] units [in all cities]",
+		"Only available <in cities without a [军用工厂5]>",
+		"民用工厂",
+	]
+	},
+	{
+		"name": "民用工厂5",
+		"cost":250,
+		"requiredBuilding": "民用工厂4",	
+		"uniques": [
+		"[+100]% Production when constructing [民用工厂] buildings [in all cities]",
+		"[+100]% Production when constructing [军用工厂] buildings [in all cities]",
+		"[+100]% Production when constructing [平民] units [in all cities]",
+		"Only available <in cities without a [军用工厂5]>",
+		"民用工厂",
+	]
+	},
+	{
+		"name": "民用工厂6",
+		"cost":320,
+		"requiredBuilding": "民用工厂5",	
+		"uniques": [
+		"[+100]% Production when constructing [民用工厂] buildings [in all cities]",
+		"[+100]% Production when constructing [军用工厂] buildings [in all cities]",
+		"[+100]% Production when constructing [平民] units [in all cities]",
+		"Only available <in cities without a [军用工厂4]>",
+		"民用工厂",
+	]
+	},
+	{
+		"name": "民用工厂7",
+		"cost":400,
+		"requiredBuilding": "民用工厂6",	
+		"uniques": [
+		"[+100]% Production when constructing [民用工厂] buildings [in all cities]",
+		"[+100]% Production when constructing [军用工厂] buildings [in all cities]",
+		"[+100]% Production when constructing [平民] units [in all cities]",
+		"Only available <in cities without a [军用工厂3]>",
+		"民用工厂",
+	]
+	},
+	{
+		"name": "民用工厂8",
+		"cost":500,
+		"requiredBuilding": "民用工厂7",	
+		"uniques": [
+		"[+150]% Production when constructing [民用工厂] buildings [in all cities]",
+		"[+150]% Production when constructing [军用工厂] buildings [in all cities]",
+		"[+150]% Production when constructing [平民] units [in all cities]",
+		"Only available <in cities without a [军用工厂2]>",
+		"民用工厂",
+	]
+	},
+	{
+		"name": "军用工厂1",//
+		"cost":75,
+		"uniques": [
+		"[+5]% Production when constructing [军队] units [in all cities]",
+		"Only available <in cities without a [民用工厂8]>",
+		"军用工厂",
+	]
+	},
+	{
+		"name": "军用工厂2",
+		"cost":150,
+		"requiredBuilding": "军用工厂1",	
+		"uniques": [
+		"[+5]% Production when constructing [军队] units [in all cities]",
+		"Only available <in cities without a [民用工厂7]>",
+		"军用工厂",
+	]
+	},
+	{
+		"name": "军用工厂3",
+		"cost":200,
+		"requiredBuilding": "军用工厂2",	
+		"uniques": [
+		"[+5]% Production when constructing [军队] units [in all cities]",
+		"Only available <in cities without a [民用工厂6]>",
+		"军用工厂",
+	]
+	},
+	{
+		"name": "军用工厂4",
+		"cost":250,
+		"requiredBuilding": "军用工厂3",	
+		"uniques": [
+		"[+10]% Production when constructing [军队] units [in all cities]",
+		"Only available <in cities without a [民用工厂5]>",
+		"军用工厂",
+	]
+	},
+	{
+		"name": "军用工厂5",
+		"cost":250,
+		"requiredBuilding": "军用工厂4",	
+		"uniques": [
+		"[+10]% Production when constructing [军队] units [in all cities]",
+		"Only available <in cities without a [民用工厂5]>",
+		"军用工厂",
+	]
+	},
+	{
+		"name": "军用工厂6",
+		"cost":320,
+		"requiredBuilding": "民用工厂5",	
+		"uniques": [
+		"[+10]% Production when constructing [军队] units [in all cities]",
+		"Only available <in cities without a [民用工厂4]>",
+		"军用工厂",
+	]
+	},
+	{
+		"name": "军用工厂7",
+		"cost":400,
+		"requiredBuilding": "军用工厂6",	
+		"uniques": [
+		"[+10]% Production when constructing [军队] units [in all cities]",
+		"Only available <in cities without a [民用工厂3]>",
+		"军用工厂",
+	]
+	},
+	{
+		"name": "军用工厂8",
+		"cost":500,
+		"requiredBuilding": "军用工厂7",	
+		"uniques": [
+		"[+15]% Production when constructing [军队] units [in all cities]",
+		"Only available <in cities without a [民用工厂2]>",
+		"军用工厂",
+	]
+	},
 	
 	
 	

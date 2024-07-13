@@ -8,8 +8,7 @@
 		"[+5]% Strength <after discovering [科技-改良步兵装备I]> <vs [单位类型-步兵] units>",
 		"[+5]% Strength <after discovering [科技-改良步兵装备II]> <vs [单位类型-步兵] units>",
 		"[+5]% Strength <after discovering [科技-改良步兵装备III]> <vs [单位类型-步兵] units>",
-		"Instantly provides [2] [陆军经验] <upon losing at least [10] HP in a single attack> <when at war>",
-		
+		<upon losing at least [10] HP in a single attack>
 			]
 	},
 	{
@@ -20,7 +19,6 @@
 		"[-50]% Strength",
 		"[+5]% Strength <after discovering [科技-山地步兵II]> <vs [单位类型-步兵] units>",
 		"[+5]% Strength <after discovering [科技-山地步兵III]> <vs [单位类型-步兵] units>",
-		"Instantly provides [2] [陆军经验] <upon losing at least [10] HP in a single attack> <when at war>",
 			]
 	},
 	{
@@ -31,7 +29,6 @@
 		"[-50]% Strength",
 		"[+5]% Strength <after discovering [科技-伞兵II]> <vs [单位类型-步兵] units>",
 		"[+5]% Strength <after discovering [科技-伞兵III]> <vs [单位类型-步兵] units>",
-		"Instantly provides [2] [陆军经验] <upon losing at least [10] HP in a single attack> <when at war>",
 			]
 	},
 	
