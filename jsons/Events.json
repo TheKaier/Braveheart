@@ -42,9 +42,35 @@
         "Discover [科技-伞兵II] <after discovering [科技-伞兵I]> <when above [1999] [Science]> <hidden from users>",
         "Discover [科技-伞兵III] <after discovering [科技-伞兵II]> <when above [2999] [Science]> <hidden from users>",
             ],
+        },
+        {
+        "text":"机械化部队科技",
+        "triggeredUniques":[
+        "Discover [科技-摩托化装备] <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-自行火箭炮] <after discovering [科技-摩托化装备]> <when above [1999] [Science]> <hidden from users>",
+            ],
+        },
+        {
+        "text":"机械化装备科技",
+        "triggeredUniques":[
+        "Discover [科技-机械化装备I] <after discovering [科技-摩托化装备]> <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-机械化装备II] <after discovering [科技-机械化装备I]> <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-机械化装备III] <after discovering [科技-机械化装备II]> <when above [3999] [Science]> <hidden from users>",
+            ],
+        },
+        {
+        "text":"海军陆战队科技",
+        "triggeredUniques":[
+        "Discover [科技-海军陆战队I] <when above [2999] [Science]> <hidden from users>",
+        "Discover [科技-海军陆战队II] <after discovering [科技-伞兵I]> <when above [1999] [Science]> <hidden from users>",
+        "Discover [科技-海军陆战队III] <after discovering [科技-伞兵II]> <when above [2999] [Science]> <hidden from users>",
+            ],
         }
         ]
-    },
+    }
+
+
+
 
 ]
 //"Remove [科技研发-步兵] <hidden from users>",

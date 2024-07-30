@@ -75,5 +75,42 @@
         
         ]
     },
-    
+    {
+        "name": "机械化部队",
+        "researchAgreementCost": 150,
+        "startingSettlerUnit":"单位-殖民者",
+        "startingWorkerUnit":"Unit.Worker",
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "单位-步兵",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 0,
+        "embarkDefense": 150,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35],
+        "uniques":[
+        
+        ]
+    },
+    {
+        "name": "海军陆战队",
+        "researchAgreementCost": 150,
+        "startingSettlerUnit":"单位-殖民者",
+        "startingWorkerUnit":"Unit.Worker",
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "单位-步兵",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 0,
+        "embarkDefense": 150,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 87, 35],
+        "uniques":[
+        
+        ]
+    },
 ]

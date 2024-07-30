@@ -217,7 +217,107 @@
 			},
 		]
 	},
+{
+		"columnNumber": 4,
+		"era": "机械化部队",
+		"techCost": 10000,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "科技-摩托化装备",
+				"row": 1,
+				"quote": "文本-科技-摩托化装备",
+				"uniques": [
+				"Only available <after discovering [科技-基础步兵装备]>",
+				"Gain [-3000] [Science]",
+				"Unavailable",
+				]
+				},
+			{
+				"name": "科技-自行火箭炮",
+				"row": 2,
+				"quote": "文本-科技-自行火箭炮"
+				"uniques": [
+				"Only available <after discovering [科技-摩托化装备]>",
+				"Gain [-2000] [Science]",
+				"Unavailable",
+				]
+			},
+			{
+				"name": "科技-机械化装备I",
+				"row": 3,
+				"quote": "文本-科技-机械化装备I"
+				"uniques": [
+				"Only available <after discovering [科技-摩托化装备]>",
+				"Gain [-3000] [Science]",
+				"Unavailable",
+				]
+			},
+			{
+				"name": "科技-机械化装备II",
+				"row": 4,
+				"quote": "文本-科技-机械化装备II"
+				"uniques": [
+				"Only available <after discovering [科技-机械化装备I]>",
+				"Gain [-3000] [Science]",
+				"Unavailable",
+				]
+			},
+			{
+				"name": "科技-机械化装备III",
+				"row": 5,
+				"quote": "文本-科技-机械化装备III"
+				"uniques": [
+				"Only available <after discovering [科技-机械化装备II]>",
+				"Gain [-4000] [Science]",
+				"Unavailable",
+				]
+			},
+		]
+	},
 
+
+
+	{
+		"columnNumber": 5,
+		"era": "海军陆战队",
+		"techCost": 10000,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "科技-海军陆战队I",
+				"row": 1,
+				"quote": "文本-科技-海军陆战队I",
+				"uniques": [
+				"Only available <after discovering [科技-基础步兵装备]>",
+				"Gain [-3000] [Science]",
+				"Unavailable",
+				]
+				},
+			{
+				"name": "科技-海军陆战队II",
+				"row": 2,
+				"quote": "文本-科技-海军陆战队II"
+				"uniques": [
+				"Only available <after discovering [科技-海军陆战队I]>",
+				"Gain [-2000] [Science]",
+				"Unavailable",
+				]
+			},
+			{
+				"name": "科技-海军陆战队III",
+				"row": 3,
+				"quote": "文本-科技-海军陆战队III"
+				"uniques": [
+				"Only available <after discovering [科技-海军陆战队II]>",
+				"Gain [-3000] [Science]",
+				"Unavailable",
+				]
+			},
+		]
+	},
 
 
 

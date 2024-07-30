@@ -67,7 +67,40 @@
 		"军队",
 		],
 	},
-	
+		{
+		"name": "单位-摩托化步兵",//
+		"unitType": "单位类型-装甲",
+		"movement": 2,
+		"strength": 150,
+		"cost": 200,
+		"requiredTech": "科技-摩托化装备",
+		"uniques": [
+		"Consumes [1] [资源-钢铁]",
+		"Consumes [1] [资源-橡胶]",
+		//"Instantly consumes [12] [人力]",
+		"Consumes [12] [人力]",
+		//"Unbuildable",
+		"军队",
+		],
+	},
+		{
+		"name": "单位-自行火箭炮",//
+		"unitType": "单位类型-装甲",	
+		"movement": 1,
+		"strength": 100,
+		"range":2,
+		"rangedStrength": 120,
+		"cost": 200,
+		"requiredTech": "科技-自行火箭炮",
+		"uniques": [
+		"Consumes [1] [资源-钢铁]",
+		"Consumes [1] [资源-橡胶]",
+		//"Instantly consumes [5] [人力]",
+		"Consumes [5] [人力]",
+		//"Unbuildable",
+		"军队",
+		],
+	},
 	
 	//"May Paradrop up to [4] tiles from inside friendly territory",
 	

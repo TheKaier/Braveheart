@@ -118,6 +118,7 @@
 		"name": "基础步兵装备",//43
 		"cost": 0,
 		"uniques": [
+		"Consumes [2] [资源-钢铁]",
 		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-基础步兵装备] promotion",
 		"Only available <in cities without a [步兵武器]>",
 		"[-30]% Production when constructing [单位-步兵] units [in this city]",
@@ -130,6 +131,7 @@
 		"name": "步兵装备I",//50
 		"cost": 0,
 		"uniques": [
+		"Consumes [2] [资源-钢铁]",
 		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-步兵装备I] promotion",
 		"Only available <in cities without a [步兵武器]>",
 		"[-33]% Production when constructing [单位-步兵] units [in this city]",
@@ -143,6 +145,7 @@
 		"name": "步兵装备II",//58
 		"cost": 0,
 		"uniques": [
+		"Consumes [3] [资源-钢铁]",
 		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-步兵装备II] promotion",
 		"Only available <in cities without a [步兵武器]>",
 		"[-36]% Production when constructing [单位-步兵] units [in this city]",
@@ -156,6 +159,7 @@
 		"name": "步兵装备III",//69
 		"cost": 0,
 		"uniques": [
+		"Consumes [4] [资源-钢铁]",
 		"All newly-trained [单位类型-步兵] units [in this city] receive the [晋升-步兵装备III] promotion",
 		"Only available <in cities without a [步兵武器]>",
 		"[-40]% Production when constructing [单位-步兵] units [in this city]",
@@ -165,6 +169,72 @@
 		],
 		"requiredTech": "科技-步兵装备III"
 	},
+    {
+		"name": "摩托化装备",//250
+		"cost": 0,
+		"uniques": [
+		"Consumes [1] [资源-钢铁]",
+		"Consumes [1] [资源-橡胶]",
+		"All newly-trained [单位-步兵] units [in this city] receive the [晋升-摩托化装备] promotion",
+		"All newly-trained [单位-山地步兵] units [in this city] receive the [晋升-摩托化装备] promotion",
+		"All newly-trained [单位-自行火箭炮] units [in this city] receive the [晋升-摩托化装备] promotion",
+		"Only available <in cities without a [装甲装备]>",
+		"[-71]% Production when constructing [单位-步兵] units [in this city]",
+		"[-62]% Production when constructing [单位-山地步兵] units [in this city]",
+		"[-55]% Production when constructing [单位-自行火箭炮] units [in this city]",
+		"装甲装备",
+		],
+		"requiredTech": "科技-摩托化装备"
+	},
+	{
+		"name": "机械化装备I",//800
+		"cost": 0,
+		"uniques": [
+		"Consumes [2] [资源-钢铁]",
+		"Consumes [1] [资源-橡胶]",
+		"All newly-trained [单位类型-装甲] units [in this city] receive the [晋升-机械化装备I] promotion",
+		"Only available <in cities without a [装甲装备]>",
+		"[-80]% Production when constructing [单位-摩托化装备步兵] units [in this city]",
+		"装甲装备",
+		],
+		"requiredTech": "科技-机械化装备I"
+	},
+	{
+		"name": "机械化装备II",//1000
+		"cost": 0,
+		"uniques": [
+		"Consumes [3] [资源-钢铁]",
+		"Consumes [1] [资源-橡胶]",
+		"All newly-trained [单位类型-装甲] units [in this city] receive the [晋升-机械化装备II] promotion",
+		"Only available <in cities without a [装甲装备]>",
+		"[-83]% Production when constructing [单位-摩托化装备步兵] units [in this city]",
+		"装甲装备",
+		],
+		"requiredTech": "科技-机械化装备II"
+	},
+	{
+		"name": "机械化装备III",//1200
+		"cost": 0,
+		"uniques": [
+		"Consumes [4] [资源-钢铁]",
+		"Consumes [1] [资源-橡胶]",
+		"All newly-trained [单位类型-装甲] units [in this city] receive the [晋升-机械化装备III] promotion",
+		"Only available <in cities without a [装甲装备]>",
+		"[-86]% Production when constructing [单位-摩托化装备步兵] units [in this city]",
+		"装甲装备",
+		],
+		"requiredTech": "科技-机械化装备III"
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/*基础步兵装备
 步兵装备I
 步兵装备II

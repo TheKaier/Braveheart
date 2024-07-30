@@ -46,9 +46,12 @@
         "[单位-步兵] units gain the [步兵] promotion <upon turn end>",
        "[单位-山地步兵] units gain the [山地步兵] promotion <upon turn end>",
         "[单位-伞兵] units gain the [伞兵] promotion <upon turn end>",
+       "[单位-摩托化步兵] units gain the [摩托化步兵] promotion <upon turn end>",
+        "[单位-自行火箭炮] units gain the [自行火箭炮] promotion <upon turn end>",
+        
         
         "步兵武器",
-        
+        "装甲装备",
         
         
         "军队",

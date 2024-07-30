@@ -10,15 +10,23 @@
     {
         "name": "单位类型-步兵",//步兵
         "movementType": "Land"
+        "uniques": [
+		"Instantly provides [2] [陆军经验] <upon losing at least [10] HP in a single attack> <when at war>",
+			]
     },
     {
         "name": "单位类型-装甲",//
         "movementType": "Land"
+        "uniques": [
+		"Instantly provides [1] [陆军经验] <upon losing at least [5] HP in a single attack> <when at war>",
+		"Instantly provides [2] [陆军经验] <upon losing at least [15] HP in a single attack> <when at war>",
+
+			]
     },
     
     
     
-    
+    		
     
     
 ]

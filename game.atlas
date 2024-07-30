@@ -1,481 +1,782 @@
 
 game.png
-size: 1024, 512
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 EmojiIcons/Culture
   rotate: false
-  xy: 851, 23
+  xy: 750, 195
   size: 27, 27
   orig: 27, 27
   offset: 0, 0
   index: -1
 ResourceIcons/政治点数
   rotate: false
-  xy: 851, 23
+  xy: 750, 195
   size: 27, 27
   orig: 27, 27
   offset: 0, 0
   index: -1
 EmojiIcons/Faith
   rotate: false
-  xy: 364, 119
+  xy: 324, 22
   size: 22, 22
   orig: 22, 22
   offset: 0, 0
   index: -1
 ResourceIcons/战争支持度
   rotate: false
-  xy: 364, 119
+  xy: 324, 22
   size: 22, 22
   orig: 22, 22
   offset: 0, 0
   index: -1
 EmojiIcons/Happiness
   rotate: false
-  xy: 364, 89
+  xy: 354, 33
   size: 22, 22
   orig: 22, 22
   offset: 0, 0
   index: -1
 ResourceIcons/稳定度
   rotate: false
-  xy: 364, 89
+  xy: 354, 33
   size: 22, 22
   orig: 22, 22
   offset: 0, 0
   index: -1
 StatIcons/Happiness
   rotate: false
-  xy: 364, 89
+  xy: 354, 33
   size: 22, 22
   orig: 22, 22
   offset: 0, 0
   index: -1
 NationIcons/中华民国
   rotate: false
-  xy: 4, 278
+  xy: 4, 280
   size: 330, 220
   orig: 330, 220
   offset: 0, 0
   index: -1
 NationIcons/德意志国
   rotate: false
-  xy: 342, 278
+  xy: 4, 52
   size: 330, 220
   orig: 330, 220
   offset: 0, 0
   index: -1
 NationIcons/日本
   rotate: false
-  xy: 680, 278
+  xy: 342, 280
   size: 330, 220
   orig: 330, 220
   offset: 0, 0
   index: -1
 PolicyIcons/征兵法案-广泛征兵
   rotate: false
-  xy: 398, 173
+  xy: 1990, 388
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 PolicyIcons/征兵法案-志愿兵役制
   rotate: false
-  xy: 972, 158
+  xy: 1518, 312
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 PolicyIcons/征兵法案-所有成年服兵役
   rotate: false
-  xy: 972, 110
+  xy: 132, 4
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 PolicyIcons/征兵法案-按需服兵役
   rotate: false
-  xy: 965, 62
+  xy: 180, 4
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 PolicyIcons/征兵法案-有限征兵
   rotate: false
-  xy: 288, 29
+  xy: 228, 4
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 PolicyIcons/征兵法案-榨干他们
   rotate: false
-  xy: 567, 14
+  xy: 276, 4
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 PolicyIcons/征兵法案-非军事化国家
   rotate: false
-  xy: 615, 14
+  xy: 1990, 340
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-后发制人
   rotate: false
-  xy: 720, 206
+  xy: 1248, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-国民突击队
   rotate: false
-  xy: 792, 206
+  xy: 1320, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-大规模摩托化
   rotate: false
-  xy: 864, 206
+  xy: 1392, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-弹性防御
   rotate: false
-  xy: 936, 206
+  xy: 1464, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-战场救火队
   rotate: false
-  xy: 4, 174
+  xy: 1536, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-战斗群I
   rotate: false
-  xy: 254, 168
+  xy: 1608, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-战斗群II
   rotate: false
-  xy: 254, 168
+  xy: 1608, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-无差别征兵
   rotate: false
-  xy: 468, 156
+  xy: 1680, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-机动作战
   rotate: false
-  xy: 540, 156
+  xy: 1752, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-机动步兵
   rotate: false
-  xy: 612, 156
+  xy: 1824, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-机械化攻势
   rotate: false
-  xy: 76, 152
+  xy: 1896, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-狼人游击兵
   rotate: false
-  xy: 148, 152
+  xy: 1968, 436
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-现代闪电战
   rotate: false
-  xy: 326, 149
+  xy: 680, 230
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-装甲先锋
   rotate: false
-  xy: 684, 134
+  xy: 752, 230
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-迟滞
   rotate: false
-  xy: 756, 134
+  xy: 803, 398
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-重点突破战术
   rotate: false
-  xy: 828, 134
+  xy: 782, 314
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 PolicyIcons/机动作战学说-闪电战
   rotate: false
-  xy: 900, 134
+  xy: 824, 242
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+PolicyIcons/民族精神-为何而战
+  rotate: false
+  xy: 1378, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-意识形态灌输
+  rotate: false
+  xy: 1378, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-意识形态狂热主义
+  rotate: false
+  xy: 1378, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-集体主义精神
+  rotate: false
+  xy: 1378, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-意识形态灌输
+  rotate: false
+  xy: 1378, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-意识形态狂热主义I
+  rotate: false
+  xy: 1378, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-意识形态狂热主义II
+  rotate: false
+  xy: 1378, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-我们为何而战I
+  rotate: false
+  xy: 1378, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-我们为何而战II
+  rotate: false
+  xy: 1378, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
 PolicyIcons/民族精神-九国公约
   rotate: false
-  xy: 829, 58
+  xy: 1446, 360
   size: 60, 68
   orig: 60, 68
   offset: 0, 0
   index: -1
 PolicyIcons/民族精神-低度通货膨胀
   rotate: false
-  xy: 500, 9
+  xy: 1384, 285
   size: 59, 67
   orig: 59, 67
   offset: 0, 0
   index: -1
 PolicyIcons/民族精神-低效的官僚制度
   rotate: false
-  xy: 897, 58
+  xy: 1514, 360
   size: 60, 68
   orig: 60, 68
   offset: 0, 0
   index: -1
 PolicyIcons/民族精神-低能的军官团
   rotate: false
-  xy: 4, 27
+  xy: 1582, 361
   size: 60, 67
   orig: 60, 67
   offset: 0, 0
   index: -1
-PolicyIcons/民族精神-共产主义崛起
+PolicyIcons/民族精神-保持威慑
   rotate: false
-  xy: 220, 20
+  xy: 1650, 360
   size: 60, 68
   orig: 60, 68
   offset: 0, 0
   index: -1
+PolicyIcons/通用国策-保持威慑
+  rotate: false
+  xy: 1650, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-共产主义崛起
+  rotate: false
+  xy: 1718, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-军国主义
+  rotate: false
+  xy: 1786, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-青年军
+  rotate: false
+  xy: 1786, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-军国主义
+  rotate: false
+  xy: 1786, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-青年入伍
+  rotate: false
+  xy: 1786, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-准军事组织
+  rotate: false
+  xy: 1854, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-准军事组织
+  rotate: false
+  xy: 1854, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-外交中立
+  rotate: false
+  xy: 1172, 436
+  size: 68, 64
+  orig: 68, 64
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-保持中立
+  rotate: false
+  xy: 1172, 436
+  size: 68, 64
+  orig: 68, 64
+  offset: 0, 0
+  index: -1
 PolicyIcons/民族精神-德国军事顾问
   rotate: false
-  xy: 364, 8
+  xy: 1922, 360
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-志愿军
+  rotate: false
+  xy: 1112, 238
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-赴外远征军
+  rotate: false
+  xy: 1112, 238
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-志愿部队
+  rotate: false
+  xy: 1112, 238
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-赴外远征军
+  rotate: false
+  xy: 1112, 238
   size: 60, 68
   orig: 60, 68
   offset: 0, 0
   index: -1
 PolicyIcons/民族精神-总参谋部
   rotate: false
-  xy: 139, 8
+  xy: 1248, 212
   size: 57, 64
   orig: 57, 64
   offset: 0, 0
   index: -1
+PolicyIcons/民族精神-政治委员
+  rotate: false
+  xy: 1180, 288
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-政治委员
+  rotate: false
+  xy: 1180, 288
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/民族精神-政治正确
+  rotate: false
+  xy: 1180, 212
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-政治正确
+  rotate: false
+  xy: 1180, 212
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
 PolicyIcons/民族精神-腐败的国军
   rotate: false
-  xy: 72, 4
+  xy: 1451, 284
   size: 59, 68
   orig: 59, 68
   offset: 0, 0
   index: -1
+PolicyIcons/民族精神-自由主义精神
+  rotate: false
+  xy: 1248, 284
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
+PolicyIcons/通用国策-自由主义精神
+  rotate: false
+  xy: 1248, 284
+  size: 60, 68
+  orig: 60, 68
+  offset: 0, 0
+  index: -1
 PolicyIcons/民族精神-苦涩的失败者
   rotate: false
-  xy: 432, 10
+  xy: 1316, 286
   size: 60, 66
   orig: 60, 66
   offset: 0, 0
   index: -1
 PolicyIcons/贸易法案-封闭经济
   rotate: false
-  xy: 663, 14
+  xy: 1518, 264
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 PolicyIcons/贸易法案-有限出口
   rotate: false
-  xy: 965, 14
+  xy: 562, 178
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 PolicyIcons/贸易法案-自由贸易
   rotate: false
-  xy: 711, 10
+  xy: 610, 182
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
 PolicyIcons/贸易法案-重视出口
   rotate: false
-  xy: 759, 10
+  xy: 658, 182
   size: 40, 40
   orig: 40, 40
   offset: 0, 0
   index: -1
+PolicyIcons/通用国策-干涉主义
+  rotate: false
+  xy: 680, 302
+  size: 94, 76
+  orig: 94, 76
+  offset: 0, 0
+  index: -1
 ResourceIcons/人力
   rotate: false
-  xy: 886, 23
+  xy: 785, 195
   size: 27, 27
   orig: 27, 27
   offset: 0, 0
   index: -1
 ResourceIcons/指挥点数
   rotate: false
-  xy: 220, 194
+  xy: 516, 139
   size: 24, 22
   orig: 24, 22
   offset: 0, 0
   index: -1
+ResourceIcons/资源-橡胶
+  rotate: false
+  xy: 426, 78
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+ResourceIcons/资源-钢铁
+  rotate: false
+  xy: 446, 131
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+ResourceIcons/资源-钨
+  rotate: false
+  xy: 481, 134
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
 TechIcons/科技-伞兵I
   rotate: false
-  xy: 4, 102
+  xy: 875, 386
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TechIcons/科技-伞兵II
   rotate: false
-  xy: 220, 96
+  xy: 854, 314
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TechIcons/科技-伞兵III
   rotate: false
-  xy: 398, 84
+  xy: 947, 386
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TechIcons/科技-反坦克步枪I
   rotate: false
-  xy: 470, 84
+  xy: 926, 314
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TechIcons/科技-反坦克步枪II
   rotate: false
-  xy: 542, 84
+  xy: 896, 242
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TechIcons/科技-基础步兵装备
   rotate: false
-  xy: 4, 246
+  xy: 4, 20
   size: 120, 24
   orig: 120, 24
   offset: 0, 0
   index: -1
 TechIcons/科技-山地步兵I
   rotate: false
-  xy: 76, 80
+  xy: 1019, 386
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TechIcons/科技-山地步兵II
   rotate: false
-  xy: 148, 80
+  xy: 998, 314
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TechIcons/科技-山地步兵III
   rotate: false
-  xy: 292, 77
+  xy: 968, 242
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+TechIcons/科技-摩托化装备
+  rotate: false
+  xy: 342, 113
+  size: 96, 45
+  orig: 96, 45
+  offset: 0, 0
+  index: -1
 TechIcons/科技-改良步兵装备I
   rotate: false
-  xy: 614, 62
+  xy: 1091, 386
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TechIcons/科技-改良步兵装备II
   rotate: false
-  xy: 686, 62
+  xy: 1070, 314
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TechIcons/科技-改良步兵装备III
   rotate: false
-  xy: 758, 58
+  xy: 1307, 360
   size: 63, 68
   orig: 63, 68
   offset: 0, 0
   index: -1
+TechIcons/科技-机械化装备I
+  rotate: false
+  xy: 342, 223
+  size: 115, 49
+  orig: 115, 49
+  offset: 0, 0
+  index: -1
+TechIcons/科技-机械化装备II
+  rotate: false
+  xy: 680, 451
+  size: 115, 49
+  orig: 115, 49
+  offset: 0, 0
+  index: -1
+TechIcons/科技-机械化装备III
+  rotate: false
+  xy: 342, 166
+  size: 115, 49
+  orig: 115, 49
+  offset: 0, 0
+  index: -1
 TechIcons/科技-步兵装备I
   rotate: false
-  xy: 254, 240
+  xy: 803, 470
   size: 109, 30
   orig: 109, 30
   offset: 0, 0
   index: -1
 TechIcons/科技-步兵装备II
   rotate: false
-  xy: 371, 221
+  xy: 465, 169
   size: 89, 49
   orig: 89, 49
   offset: 0, 0
   index: -1
 TechIcons/科技-步兵装备III
   rotate: false
-  xy: 132, 224
+  xy: 465, 226
   size: 114, 46
   orig: 114, 46
   offset: 0, 0
   index: -1
+TechIcons/科技-海军陆战队I
+  rotate: false
+  xy: 1040, 242
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TechIcons/科技-海军陆战队II
+  rotate: false
+  xy: 1163, 364
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TechIcons/科技-海军陆战队III
+  rotate: false
+  xy: 1235, 364
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TechIcons/科技-自行火箭炮
+  rotate: false
+  xy: 680, 386
+  size: 110, 57
+  orig: 110, 57
+  offset: 0, 0
+  index: -1
 UnitIcons/单位-伞兵
   rotate: false
-  xy: 468, 228
+  xy: 587, 230
   size: 76, 42
   orig: 76, 42
   offset: 0, 0
   index: -1
 UnitIcons/单位-山地步兵
   rotate: false
-  xy: 552, 228
+  xy: 342, 63
+  size: 76, 42
+  orig: 76, 42
+  offset: 0, 0
+  index: -1
+UnitIcons/单位-摩托化步兵
+  rotate: false
+  xy: 920, 458
   size: 76, 42
   orig: 76, 42
   offset: 0, 0
   index: -1
 UnitIcons/单位-步兵
   rotate: false
-  xy: 807, 14
+  xy: 706, 186
   size: 36, 36
   orig: 36, 36
   offset: 0, 0
   index: -1
+UnitIcons/单位-自行火箭炮
+  rotate: false
+  xy: 1004, 458
+  size: 76, 42
+  orig: 76, 42
+  offset: 0, 0
+  index: -1
 UnitIcons/单位-自行车营
   rotate: false
-  xy: 636, 228
+  xy: 1088, 458
   size: 76, 42
   orig: 76, 42
   offset: 0, 0

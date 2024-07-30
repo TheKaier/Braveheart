@@ -8,8 +8,6 @@
 		"[+5]% Strength <after discovering [科技-改良步兵装备I]> <vs [单位类型-步兵] units>",
 		"[+5]% Strength <after discovering [科技-改良步兵装备II]> <vs [单位类型-步兵] units>",
 		"[+5]% Strength <after discovering [科技-改良步兵装备III]> <vs [单位类型-步兵] units>",
-		"Instantly provides [2] [陆军经验] <upon losing at least [10] HP in a single attack> <when at war>",
-		
 			]
 	},
 	{
@@ -20,7 +18,6 @@
 		"[-50]% Strength",
 		"[+5]% Strength <after discovering [科技-山地步兵II]> <vs [单位类型-步兵] units>",
 		"[+5]% Strength <after discovering [科技-山地步兵III]> <vs [单位类型-步兵] units>",
-		"Instantly provides [2] [陆军经验] <upon losing at least [10] HP in a single attack> <when at war>",
 			]
 	},
 	{
@@ -31,9 +28,25 @@
 		"[-50]% Strength",
 		"[+5]% Strength <after discovering [科技-伞兵II]> <vs [单位类型-步兵] units>",
 		"[+5]% Strength <after discovering [科技-伞兵III]> <vs [单位类型-步兵] units>",
-		"Instantly provides [2] [陆军经验] <upon losing at least [10] HP in a single attack> <when at war>",
 			]
 	},
+	{
+		"name": "摩托化步兵",//
+		"uniques": [
+		//"[-50]% Strength",
+			]
+	},
+	{
+		"name": "自行火箭炮",//
+		"uniques": [
+		//"[-50]% Strength",
+			]
+	},
+	
+	
+	
+	
+	
 	
 	
 	
@@ -67,6 +80,49 @@
 			"[-40]% Strength <vs [单位类型-装甲] units>",
 			]
 	},
+	
+	{
+		"name": "晋升-摩托化装备",//
+		"uniques": [
+			"[+10]% Strength",
+			"[+1] Movement",
+			]
+	},
+	{
+		"name": "晋升-机械化装备I",//
+		"uniques": [
+			"[+15]% Strength",
+			"[+15]% Strength <when defending>",
+			]
+	},
+	{
+		"name": "晋升-机械化装备II",//
+		"uniques": [
+			"[+15]% Strength",
+			"[+20]% Strength <when defending>",
+			"[+1] Movement",
+			]
+	},
+	{
+		"name": "晋升-机械化装备III",//
+		"uniques": [
+			"[+20]% Strength",
+			"[+25]% Strength <when defending>",
+			"[+1] Movement",
+			]
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 /*基础步兵装备
 步兵装备I
 步兵装备II
